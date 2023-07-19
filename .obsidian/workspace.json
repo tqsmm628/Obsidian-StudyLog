@@ -1,0 +1,167 @@
+{
+  "main": {
+    "id": "1290c3a3c7795846",
+    "type": "split",
+    "children": [
+      {
+        "id": "6d0df68bb505c151",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2dbb98e6e0e3512c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-DailyNotes/2023-07-19.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0a1a7b627fffcfe9",
+    "type": "split",
+    "children": [
+      {
+        "id": "b5e1fbebb24b0aa9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2cc407d996e992c1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a64c35da61c8b4d6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2771ac23f66b9705",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ea126a16b4c0e9c8",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e2418ebbf842205",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "962b9561c5f9caff",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "00-DailyNotes/2023-07-19.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "969214132d83e25b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "00-DailyNotes/2023-07-19.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dd4d7fcaae87e5c4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ad421a31ff47edb2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "00-DailyNotes/2023-07-19.md"
+              }
+            }
+          },
+          {
+            "id": "1b2f5e26d198094f",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:開啟快速切換": false,
+      "graph:查看關聯圖": false,
+      "canvas:建立新畫布": false,
+      "daily-notes:開啟今天的每日筆記": false,
+      "templates:插入模板": false,
+      "command-palette:開啟命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "2dbb98e6e0e3512c",
+  "lastOpenFiles": [
+    "00-DailyNotes/2023-07-19.md",
+    "README.md",
+    "01-Inbox",
+    "00-DailyNotes",
+    "attachments"
+  ]
+}
