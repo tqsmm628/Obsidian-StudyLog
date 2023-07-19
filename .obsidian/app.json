@@ -1,4 +1,6 @@
 {
-  "attachmentFolderPath": "attachments",
-  "showInlineTitle": false
+  "attachmentFolderPath": "98-Attachments",
+  "showInlineTitle": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "99-Library"
 }
