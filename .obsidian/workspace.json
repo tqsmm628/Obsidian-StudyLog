@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-Book/Learning Git.md",
+                "file": "00-DailyNotes/2023-07-20.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-Book/Learning Git.md",
+                "file": "00-DailyNotes/2023-07-20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-Book/Learning Git.md",
+                "file": "00-DailyNotes/2023-07-20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-Book/Learning Git.md"
+                "file": "00-DailyNotes/2023-07-20.md"
               }
             }
           },
@@ -165,10 +165,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "dd4d7fcaae87e5c4",
+  "active": "afd6823fbadd7a07",
   "lastOpenFiles": [
-    "00-DailyNotes/2023-07-19.md",
     "02-Book/Learning Git.md",
+    "00-DailyNotes/2023-07-20.md",
+    "00-DailyNotes/2023-07-19.md",
     "02-Book/_README.md",
     "02-Book",
     "99-Library",
