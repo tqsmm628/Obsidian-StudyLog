@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "6d0df68bb505c151",
+        "id": "b9cdac9064ce81cf",
         "type": "tabs",
         "children": [
           {
-            "id": "afd6823fbadd7a07",
+            "id": "5196719bc251f1c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "90-DailyNotes/2023-07-20.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4234c54b0e68c46e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-Book/Learning Git.md",
+                "file": "02-Book/_README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-Book/Learning Git.md",
+                "file": "02-Book/_README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-Book/Learning Git.md",
+                "file": "02-Book/_README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-Book/Learning Git.md"
+                "file": "02-Book/_README.md"
               }
             }
           },
@@ -176,16 +163,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "4234c54b0e68c46e",
+  "active": "5196719bc251f1c6",
   "lastOpenFiles": [
+    "02-Book/_README.md",
+    "README.md",
     "90-DailyNotes/2023-07-20.md",
+    "02-Book/Learning Git.md",
     "90-DailyNotes/2023-07-19.md",
     "97-Templates",
-    "02-Book/Learning Git.md",
-    "02-Book/_README.md",
     "02-Book",
     "99-Library",
-    "README.md",
     "01-Inbox",
     "90-DailyNotes",
     "98-Attachments"

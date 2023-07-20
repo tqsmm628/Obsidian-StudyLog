@@ -3,5 +3,6 @@
   "showInlineTitle": false,
   "newFileLocation": "folder",
   "newFileFolderPath": "99-Library",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "defaultViewMode": "source"
 }
