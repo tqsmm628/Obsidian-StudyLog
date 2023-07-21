@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-LinksToRead/obsidian插件dataview官方文档翻译.md",
+                "file": "90-DailyNotes/2023-07-21.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03-LinksToRead/obsidian插件dataview官方文档翻译.md",
+                "file": "90-DailyNotes/2023-07-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03-LinksToRead/obsidian插件dataview官方文档翻译.md",
+                "file": "90-DailyNotes/2023-07-21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03-LinksToRead/obsidian插件dataview官方文档翻译.md"
+                "file": "90-DailyNotes/2023-07-21.md"
               }
             }
           },
@@ -165,8 +165,9 @@
   },
   "active": "98971988cb743f22",
   "lastOpenFiles": [
-    "03-LinksToRead/_README.md",
     "03-LinksToRead/obsidian插件dataview官方文档翻译.md",
+    "90-DailyNotes/2023-07-21.md",
+    "03-LinksToRead/_README.md",
     "02-Book/Learning Git.md",
     "03-LinksToRead",
     "02-Book/_README.md",
