@@ -13,7 +13,15 @@ status: doing
 
 ## What Is Git?
 
-### Example Book Project 1-1
+==Example Book Project 1-1
+
+## The Graphical User Interface and the Command Line
+
+## Opening a Command Line Window
+
+
+
+
 
 
 
