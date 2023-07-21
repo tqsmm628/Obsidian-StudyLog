@@ -5,7 +5,13 @@
     "fontSize": 16,
     "emojiStyle": "none",
     "iconColor": null,
-    "recentlyUsedIcons": [],
+    "recentlyUsedIcons": [
+      "SiLibrarything",
+      "TiFiles",
+      "TiTemplate",
+      "FasCalendarDays",
+      "FasInbox"
+    ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
     "extraMargin": {
@@ -14,6 +20,13 @@
       "bottom": 0,
       "left": 0
     },
-    "iconInTabsEnabled": true
-  }
+    "iconInTabsEnabled": false
+  },
+  "02-Book": "TiBook",
+  "03-LinksToRead": "FasLink",
+  "80-Inbox": "FasInbox",
+  "90-DailyNotes": "FasCalendarDays",
+  "97-Templates": "TiTemplate",
+  "98-Attachments": "TiFiles",
+  "99-Library": "SiLibrarything"
 }

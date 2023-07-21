@@ -19,7 +19,8 @@
               }
             }
           }
-        ]
+        ],
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -69,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ea126a16b4c0e9c8",
@@ -163,7 +165,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "98971988cb743f22",
+  "active": "2cc407d996e992c1",
   "lastOpenFiles": [
     "02-Book/_README.md",
     "README.md",
@@ -177,7 +179,7 @@
     "97-Templates",
     "02-Book",
     "99-Library",
-    "01-Inbox",
+    "80-Inbox",
     "90-DailyNotes",
     "98-Attachments"
   ]
