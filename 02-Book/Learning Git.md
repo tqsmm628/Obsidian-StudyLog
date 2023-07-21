@@ -9,6 +9,8 @@ status: doing
 
 # Preface
 
+# 1. Git and the Command Line
+
 
 
 
