@@ -29,6 +29,13 @@ status: doing
 
 ### EXECUTING THE FIRST COMMAND IN THE COMMAND LINE
 
+==FOLLOW ALONG 1-2
+
+```bash
+git version
+```
+
+
 
 
 
