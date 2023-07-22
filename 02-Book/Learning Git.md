@@ -23,6 +23,11 @@ status: doing
 
 ## Executing Commands in the Command Line
 
+==FIGURE 1-2 How to execute a command included in a Follow Along section
+
+### COMMAND OUTPUT
+
+### EXECUTING THE FIRST COMMAND IN THE COMMAND LINE
 
 
 
