@@ -19,6 +19,10 @@ status: doing
 
 ## Opening a Command Line Window
 
+==FIGURE 1-1 An example of a command prompt
+
+## Executing Commands in the Command Line
+
 
 
 
