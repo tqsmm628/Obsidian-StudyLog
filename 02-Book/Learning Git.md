@@ -29,34 +29,29 @@ status: doing
 
 ### EXECUTING THE FIRST COMMAND IN THE COMMAND LINE
 
-==FOLLOW ALONG 1-2
-
 ```bash
 git version
 ```
 
 ## Installing Git
 
-==FOLLOW ALONG 1-3
-
 ## Command Options and Arguments
 
+==FIGURE 1-3 An example of a command with an option and an argument
 
+## Clearing the Command Line
 
+```bash
+clear
+```
 
+## Opening the Filesystem Window
 
+## Working with Directories
 
-
-
-
-
-
-
-
-
-
----
-
+```bash
+pwd
+```
 
 
 
