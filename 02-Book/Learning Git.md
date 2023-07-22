@@ -53,6 +53,8 @@ clear
 pwd
 ```
 
+### VIEWING THE CONTENTS OF DIRECTORIES
+
 
 
 
