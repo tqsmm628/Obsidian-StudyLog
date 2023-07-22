@@ -35,6 +35,12 @@ status: doing
 git version
 ```
 
+## Installing Git
+
+==FOLLOW ALONG 1-3
+
+## Command Options and Arguments
+
 
 
 
