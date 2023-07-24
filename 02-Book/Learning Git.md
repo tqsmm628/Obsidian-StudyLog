@@ -55,6 +55,13 @@ pwd
 
 ### VIEWING THE CONTENTS OF DIRECTORIES
 
+```bash
+ls
+ls -a
+```
+
+### VIEWING THE CONTENTS OF DIRECTORIES
+
 
 
 
