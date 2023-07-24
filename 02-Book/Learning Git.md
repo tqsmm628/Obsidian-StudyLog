@@ -78,6 +78,11 @@ pwd
 mkdir <directory_name>
 ```
 
+```bash
+cd desktop
+mkdir rainbow
+ls
+```
 
 
 

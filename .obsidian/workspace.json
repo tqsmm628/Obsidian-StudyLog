@@ -19,8 +19,7 @@
               }
             }
           }
-        ],
-        "stacked": true
+        ]
       }
     ],
     "direction": "vertical"
@@ -165,7 +164,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "2cc407d996e992c1",
+  "active": "98971988cb743f22",
   "lastOpenFiles": [
     "02-Book/_README.md",
     "README.md",
