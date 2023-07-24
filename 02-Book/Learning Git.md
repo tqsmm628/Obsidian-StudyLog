@@ -84,11 +84,27 @@ mkdir rainbow
 ls
 ```
 
+```bash
+cd rainbow
+pwd
+```
 
+## Closing the Command Line
 
+```bash
+pwd
+# close and reopen
+#---------------------
+pwd
+cd desktop
+pwd
+```
 
+## Setting Git Configurations
 
-
+```bash
+git config --global --list
+```
 
 
 
