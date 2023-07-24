@@ -111,4 +111,34 @@ git config --global user.name "<name>"
 git config --global user.email "<email>"
 ```
 
+```bash
+git config --global user.name "1010496"
+git config --global user.email "1010496@iisigroup.com"
+git config --global --list
+```
+
+## Preparing a Text Editor
+
+## Integrated Terminals
+
+## Summary
+
+# 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
