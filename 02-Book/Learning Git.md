@@ -60,11 +60,23 @@ ls
 ls -a
 ```
 
-### VIEWING THE CONTENTS OF DIRECTORIES
+### NAVIGATING INTO AND OUT OF A DIRECTORY
 
+```bash
+cd desktop
+pwd
+```
 
+```bash
+cd ..
+pwd
+```
 
+### CREATING A DIRECTORY
 
+```bash
+mkdir <directory_name>
+```
 
 
 
