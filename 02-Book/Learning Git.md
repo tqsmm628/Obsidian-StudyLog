@@ -123,7 +123,10 @@ git config --global --list
 
 ## Summary
 
-# 2
+# 2. Local Repositories
+
+
+
 
 
 
