@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "90-DailyNotes/2023-07-25.md",
+                "file": "02-Book/除了死，都只是擦傷.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ea126a16b4c0e9c8",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "90-DailyNotes/2023-07-25.md",
+                "file": "02-Book/除了死，都只是擦傷.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "90-DailyNotes/2023-07-25.md",
+                "file": "02-Book/除了死，都只是擦傷.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "90-DailyNotes/2023-07-25.md"
+                "file": "02-Book/除了死，都只是擦傷.md"
               }
             }
           },
@@ -160,14 +161,14 @@
       "templates:插入模板": false,
       "daily-notes:開啟今天的每日筆記": false,
       "command-palette:開啟命令面板": true,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
   "active": "545758a0642729fb",
   "lastOpenFiles": [
-    "02-Book/除了死，都只是擦傷.md",
     "90-DailyNotes/2023-07-25.md",
     "02-Book/_README.md",
+    "02-Book/除了死，都只是擦傷.md",
     "02-Book/Learning Git.md",
     "README.md",
     "03-LinksToRead/obsidian插件dataview官方文档翻译.md",
