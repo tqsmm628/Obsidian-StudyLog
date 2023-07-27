@@ -169,7 +169,7 @@
       "templates:插入模板": false,
       "daily-notes:開啟今天的每日筆記": false,
       "command-palette:開啟命令面板": true,
-      "table-editor-obsidian:Advanced Tables Toolbar": true
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "4737a41ff230b22b",
