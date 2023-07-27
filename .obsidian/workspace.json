@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-Book/除了死，都只是擦傷.md",
+                "file": "02-Book/_index.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,13 +73,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ea126a16b4c0e9c8",
@@ -95,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-Book/除了死，都只是擦傷.md",
+                "file": "02-Book/_index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-Book/除了死，都只是擦傷.md",
+                "file": "02-Book/_index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-Book/除了死，都只是擦傷.md"
+                "file": "02-Book/_index.md"
               }
             }
           },
@@ -173,13 +171,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": true
     }
   },
-  "active": "ad421a31ff47edb2",
+  "active": "2cc407d996e992c1",
   "lastOpenFiles": [
+    "02-Book/除了死，都只是擦傷.md",
     "03-LinksToRead/obsidian插件dataview官方文档翻译.md",
     "02-Book/Learning Git.md",
-    "02-Book/除了死，都只是擦傷.md",
     "90-DailyNotes/2023-07-25.md",
-    "02-Book/_README.md",
+    "02-Book/_index.md",
     "README.md",
     "90-DailyNotes/2023-07-21.md",
     "03-LinksToRead/_README.md",
