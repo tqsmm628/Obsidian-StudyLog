@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "545758a0642729fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-Book/_index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "4737a41ff230b22b",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
