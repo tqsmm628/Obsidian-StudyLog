@@ -152,3 +152,5 @@ git init -b <branch_name>
 
 # 3. Making a Commit
 
+## Current Setup
+
