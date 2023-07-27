@@ -140,3 +140,11 @@ git init -b <branch_name>
 
 ### Introducing the Working Directory
 
+### Introducing the Staging Area
+
+### What is a Commit?
+
+### Introducing the Commit History
+
+## Adding a File to a Git Project
+
