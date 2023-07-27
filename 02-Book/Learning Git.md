@@ -131,3 +131,12 @@ git config --global --list
 
 ## Initializing a Local Repository
 
+```bash
+git init
+git init -b <branch_name>
+```
+
+## The Areas of Git
+
+### Introducing the Working Directory
+
