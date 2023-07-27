@@ -125,3 +125,9 @@ git config --global --list
 
 # 2. Local Repositories
 
+## Current Setup
+
+## Introducing Repositories
+
+## Initializing a Local Repository
+
