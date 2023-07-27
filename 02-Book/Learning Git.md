@@ -148,3 +148,7 @@ git init -b <branch_name>
 
 ## Adding a File to a Git Project
 
+## Summary
+
+# 3. Making a Commit
+
