@@ -154,3 +154,5 @@ git init -b <branch_name>
 
 ## Current Setup
 
+## Why Do We Make Commits?
+
