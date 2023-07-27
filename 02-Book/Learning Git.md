@@ -125,23 +125,3 @@ git config --global --list
 
 # 2. Local Repositories
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
