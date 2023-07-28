@@ -174,3 +174,5 @@ git add -A
 git add rainbowcolors.txt
 git status
 ```
+
+### Making a CO
