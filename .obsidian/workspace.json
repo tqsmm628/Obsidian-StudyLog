@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ceeb92e49c8c8dd3",
+        "id": "afc9b7b403cb3ad3",
         "type": "tabs",
         "children": [
           {
-            "id": "924d94b8849d6529",
+            "id": "1b93e2df371b156d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -171,16 +171,17 @@
       "daily-notes:開啟今天的每日筆記": false
     }
   },
-  "active": "924d94b8849d6529",
+  "active": "1b93e2df371b156d",
   "lastOpenFiles": [
     "README.md",
+    "97-Templates/book.md",
+    "02-Book/我可能錯了.md",
     "02-Book/Learning Git.md",
     "90-DailyNotes/2023-07-19.md",
     "90-DailyNotes/2023-07-20.md",
     "90-DailyNotes/2023-07-21.md",
     "90-DailyNotes/2023-07-25.md",
     "90-DailyNotes/2023-07-27.md",
-    "02-Book/我可能錯了.md",
     "02-Book/_index.md",
     "02-Book/除了死，都只是擦傷.md",
     "03-LinksToRead/obsidian插件dataview官方文档翻译.md",
