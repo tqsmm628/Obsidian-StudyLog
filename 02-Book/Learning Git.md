@@ -175,4 +175,8 @@ git add rainbowcolors.txt
 git status
 ```
 
-### Making a CO
+### Making a Commit
+
+```bash
+git commit -m 'red'
+```
