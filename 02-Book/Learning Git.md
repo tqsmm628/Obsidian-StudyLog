@@ -156,3 +156,9 @@ git init -b <branch_name>
 
 ## Why Do We Make Commits?
 
+## The Two Steps to Make a Commit
+
+```bash
+git status
+```
+
