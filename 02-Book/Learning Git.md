@@ -180,3 +180,9 @@ git status
 ```bash
 git commit -m 'red'
 ```
+
+## Viewing a List of Commits
+
+```bash
+git log
+```
