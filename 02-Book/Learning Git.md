@@ -191,3 +191,5 @@ git log
 
 # 4. Branches
 
+## State of the Local Repository
+
