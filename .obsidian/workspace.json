@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-Book/Learning Git.md",
+                "file": "02-Book/我可能錯了.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-Book/Learning Git.md",
+                "file": "02-Book/我可能錯了.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-Book/Learning Git.md",
+                "file": "02-Book/我可能錯了.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-Book/Learning Git.md"
+                "file": "02-Book/我可能錯了.md"
               }
             }
           },
@@ -173,14 +173,14 @@
   },
   "active": "924d94b8849d6529",
   "lastOpenFiles": [
+    "README.md",
+    "02-Book/Learning Git.md",
     "90-DailyNotes/2023-07-19.md",
     "90-DailyNotes/2023-07-20.md",
     "90-DailyNotes/2023-07-21.md",
     "90-DailyNotes/2023-07-25.md",
     "90-DailyNotes/2023-07-27.md",
-    "02-Book/Learning Git.md",
     "02-Book/我可能錯了.md",
-    "README.md",
     "02-Book/_index.md",
     "02-Book/除了死，都只是擦傷.md",
     "03-LinksToRead/obsidian插件dataview官方文档翻译.md",

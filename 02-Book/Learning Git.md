@@ -186,3 +186,8 @@ git commit -m 'red'
 ```bash
 git log
 ```
+
+## Summary
+
+# 4. Branches
+
