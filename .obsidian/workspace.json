@@ -154,7 +154,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -171,7 +172,7 @@
       "daily-notes:開啟今天的每日筆記": false
     }
   },
-  "active": "4737a41ff230b22b",
+  "active": "ad421a31ff47edb2",
   "lastOpenFiles": [
     "README.md",
     "02-Book/_index.md",
