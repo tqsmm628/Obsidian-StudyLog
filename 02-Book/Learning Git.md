@@ -197,3 +197,7 @@ git log
 
 ### What Exactly are Branches in Git?
 
+```bash
+git log
+```
+
