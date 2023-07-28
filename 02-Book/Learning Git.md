@@ -193,3 +193,7 @@ git log
 
 ## State of the Local Repository
 
+## Why Do We Use Branches?
+
+### What Exactly are Branches in Git?
+
