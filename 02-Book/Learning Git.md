@@ -169,3 +169,8 @@ git add <filename>
 git add <filename> <filename>
 git add -A
 ```
+
+```bash
+git add rainbowcolors.txt
+git status
+```
