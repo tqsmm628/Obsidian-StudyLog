@@ -162,3 +162,10 @@ git init -b <branch_name>
 git status
 ```
 
+### Adding Files to the Staging Area
+
+```bash
+git add <filename>
+git add <filename> <filename>
+git add -A
+```
