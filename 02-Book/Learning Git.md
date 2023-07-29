@@ -264,3 +264,8 @@ git add rainbowcolors.txt
 git commit -m "yellow"
 git log
 ```
+
+## Summary
+
+# 5. Merging
+

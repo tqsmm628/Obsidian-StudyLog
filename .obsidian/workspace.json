@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-Book/Learning Git.md",
+                "file": "02-Book/我可能錯了.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-Book/Learning Git.md",
+                "file": "02-Book/我可能錯了.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-Book/Learning Git.md",
+                "file": "02-Book/我可能錯了.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-Book/Learning Git.md"
+                "file": "02-Book/我可能錯了.md"
               }
             }
           },
@@ -173,10 +173,10 @@
   },
   "active": "1b93e2df371b156d",
   "lastOpenFiles": [
-    "02-Book/我可能錯了.md",
     "README.md",
-    "97-Templates/book.md",
     "02-Book/Learning Git.md",
+    "02-Book/我可能錯了.md",
+    "97-Templates/book.md",
     "90-DailyNotes/2023-07-19.md",
     "90-DailyNotes/2023-07-20.md",
     "90-DailyNotes/2023-07-21.md",
