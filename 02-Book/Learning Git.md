@@ -205,3 +205,8 @@ git log
 
 ## Unmodified and Modified Files
 
+```bash
+git status
+echo "\nOrange is the second color of the rainbow\n" >> rainbowcolors.txt
+git status
+```
