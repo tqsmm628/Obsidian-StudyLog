@@ -244,3 +244,23 @@ git log
 
 ## Switching Branches
 
+```bash
+git switch <branch_name>
+git checkout <branch_name>
+```
+
+```bash
+git branch
+git switch feature
+git branch
+git log
+```
+
+## Working on a Separate Branch
+
+```bash
+echo "Yellow is the third color of the rainbow." >> rainbowcolors.txt
+git add rainbowcolors.txt
+git commit -m "yellow"
+git log
+```
