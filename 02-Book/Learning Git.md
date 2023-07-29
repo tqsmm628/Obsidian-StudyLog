@@ -242,3 +242,5 @@ git log
 
 ## What Is HEAD?
 
+## Switching Branches
+
