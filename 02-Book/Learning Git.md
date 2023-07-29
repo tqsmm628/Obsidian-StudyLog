@@ -207,6 +207,19 @@ git log
 
 ```bash
 git status
-echo "\nOrange is the second color of the rainbow\n" >> rainbowcolors.txt
+echo "Orange is the second color of the rainbow" >> rainbowcolors.txt
 git status
 ```
+
+```bash
+git add rainbowcolors.txt
+git status
+```
+
+## Making Commits on a Branch
+
+```bash
+git commit -m "orange"
+git log
+```
+
