@@ -224,5 +224,18 @@ git log
 ```
 
 ```bash
+git cat-file -p $(git rev-parse --short HEAD)
+```
 
+## Creating a Branch
+
+```bash
+git branch
+git branch <new_branch_name>
+```
+
+```bash
+git branch
+git branch feature
+git log
 ```
