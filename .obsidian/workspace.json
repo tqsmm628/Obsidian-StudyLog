@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "02-Book/大人學破局思考.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "02-Book/大人學破局思考.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "02-Book/大人學破局思考.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "02-Book/大人學破局思考.md"
               }
             }
           },
@@ -174,6 +174,7 @@
   "active": "1b93e2df371b156d",
   "lastOpenFiles": [
     "02-Book/我可能錯了.md",
+    "02-Book/大人學破局思考.md",
     "README.md",
     "02-Book/Learning Git.md",
     "97-Templates/book.md",
