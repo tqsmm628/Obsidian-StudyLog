@@ -278,3 +278,5 @@ git log
 - Fast-forward merges
 - Three-way merges
 
+## Doing a Fast-Forward Merge
+
