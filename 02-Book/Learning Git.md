@@ -269,3 +269,7 @@ git log
 
 # 5. Merging
 
+## State of the Local Repository
+
+## Introducing Merging
+
