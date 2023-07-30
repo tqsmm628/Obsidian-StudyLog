@@ -295,3 +295,10 @@ git status
 git switch main
 ```
 
+#### Switching branches changes files in the working directory
+
+```bash
+git switch main
+git log
+```
+
