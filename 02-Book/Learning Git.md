@@ -273,3 +273,8 @@ git log
 
 ## Introducing Merging
 
+## Types of Merges
+
+- Fast-forward merges
+- Three-way merges
+
