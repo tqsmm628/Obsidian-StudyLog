@@ -284,3 +284,11 @@ git log
 git merge <branch_name>
 ```
 
+### Switching onto the Branch you are Merging into
+
+#### Git protects you from losing uncommitted changes
+
+```bash
+git status
+
+```
