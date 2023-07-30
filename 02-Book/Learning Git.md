@@ -280,3 +280,7 @@ git log
 
 ## Doing a Fast-Forward Merge
 
+```bash
+git merge <branch_name>
+```
+
