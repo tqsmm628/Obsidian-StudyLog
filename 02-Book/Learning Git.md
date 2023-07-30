@@ -290,5 +290,8 @@ git merge <branch_name>
 
 ```bash
 git status
-
+echo "Green is the fourth color of the rainbow." >> rainbowcolors.txt
+git status
+git switch main
 ```
+
