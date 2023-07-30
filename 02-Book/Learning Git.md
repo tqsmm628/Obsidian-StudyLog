@@ -302,3 +302,16 @@ git switch main
 git log
 ```
 
+#### Viewing a list of all commits
+
+```bash
+git log --all
+```
+
+### Using the Git Merge Command to Execute a Merge
+
+```bash
+git merge feature
+git log
+```
+
