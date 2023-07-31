@@ -342,3 +342,5 @@ git checkout -b <new_branch_name>
 
 # 6. Hosting Services and Authentication
 
+## Hosting Services and Remote Repositories
+
