@@ -320,3 +320,15 @@ git log
 ```bash
 git checkout <commit_hash>
 ```
+
+```bash
+git checkout 91f9043
+git log --all
+```
+
+```bash
+git switch main
+git log
+```
+
+## Creating a Branch and Switching on
