@@ -331,4 +331,14 @@ git switch main
 git log
 ```
 
-## Creating a Branch and Switching on
+## Creating a Branch and Switching onto It in One Go
+
+```bash
+git switch -c <new_branch_name>
+git checkout -b <new_branch_name>
+```
+
+## Summary
+
+# 6. Hosting Services and Authentication
+
