@@ -315,3 +315,8 @@ git merge feature
 git log
 ```
 
+## Checking Out Commits
+
+```bash
+git checkout <commit_hash>
+```
