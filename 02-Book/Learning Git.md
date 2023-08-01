@@ -348,3 +348,7 @@ git checkout -b <new_branch_name>
 
 ## Setting Up Authentication Credentials
 
+### Using HTTPS
+
+### Using SSH
+
