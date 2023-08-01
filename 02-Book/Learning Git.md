@@ -372,3 +372,7 @@ git push
 
 ## Why Do We Use Remote Repositories?
 
+## Creating a Remote Repository with Data
+
+### Creating the Remote Repository
+
