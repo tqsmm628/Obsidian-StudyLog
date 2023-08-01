@@ -362,3 +362,9 @@ git checkout -b <new_branch_name>
 
 ### Starting from a Local Repository
 
+```bash
+git push
+```
+
+### Starting from a Remote Repository
+
