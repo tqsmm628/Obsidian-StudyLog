@@ -344,3 +344,7 @@ git checkout -b <new_branch_name>
 
 ## Hosting Services and Remote Repositories
 
+## Setting Up a Hosting Service Account
+
+## Setting Up Authentication Credentials
+
