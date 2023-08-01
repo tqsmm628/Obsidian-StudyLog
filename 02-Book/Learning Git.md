@@ -352,3 +352,13 @@ git checkout -b <new_branch_name>
 
 ### Using SSH
 
+## Summary
+
+# 7. Creating and Pushing to a Remote Repository
+
+## State of the Local Repository
+
+## The Two Ways to Start Work on a Git Project
+
+### Starting from a Local Repository
+
