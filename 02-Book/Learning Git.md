@@ -427,3 +427,7 @@ git log
 
 ## State of the Local and Remote Repositories
 
+## Cloning a Remote Repository
+
+### The Collaboration Simulation
+
