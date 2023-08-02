@@ -382,3 +382,14 @@ git push
 git remote add <shortname> <URL>
 ```
 
+```bash
+git remote
+git remote -v
+```
+
+```bash
+git remote
+git remote add origin https://github.com/gitlearningjourney/rainbow-remote.git
+git remote
+git remote -v
+```
