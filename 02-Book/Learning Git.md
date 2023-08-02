@@ -396,3 +396,18 @@ git remote -v
 
 ### Introducing Remote Branches and Remote-Tracking Branches
 
+### Pushing to a Remote Repository
+
+```bash
+git push <shortname> <branch_name>
+```
+
+```bash
+git branch --all
+```
+
+```bash
+git push origin main
+git branch --all
+git log
+```
