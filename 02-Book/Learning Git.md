@@ -431,3 +431,18 @@ git log
 
 ### The Collaboration Simulation
 
+```bash
+git clone <URL> <directory_name>
+```
+
+```bash
+git clone https://github.com/gitlearningjourney/rainbow-remote.git friend-rainbow
+```
+
+```bash
+cd friend-rainbow
+git remote -v
+git branch --all
+git log
+```
+
