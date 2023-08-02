@@ -421,3 +421,9 @@ git log
 
 ## Working on a Remote Repository Directly on a Hosting Service
 
+## Summary
+
+# 8. Cloning and Fetching
+
+## State of the Local and Remote Repositories
+
