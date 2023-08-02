@@ -411,3 +411,13 @@ git push origin main
 git branch --all
 git log
 ```
+
+```bash
+git switch feature
+git push origin feature
+git branch --all
+git log
+```
+
+## Working on a Remote Repository Directly on a Hosting Service
+
