@@ -376,3 +376,9 @@ git push
 
 ### Creating the Remote Repository
 
+### Adding a Connection to the Remote Repository
+
+```bash
+git remote add <shortname> <URL>
+```
+
