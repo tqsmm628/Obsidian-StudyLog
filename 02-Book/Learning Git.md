@@ -448,3 +448,13 @@ git log
 
 ### What is origin/HEAD?
 
+### Cloning Repositories and Different Types of Branches
+
+```bash
+git branch --all
+git switch feature
+git branch --all
+```
+
+### The origin Shortname
+
