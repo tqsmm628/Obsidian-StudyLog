@@ -7,5 +7,5 @@
   "defaultViewMode": "source",
   "showLineNumber": false,
   "promptDelete": false,
-  "strictLineBreaks": true
+  "strictLineBreaks": false
 }

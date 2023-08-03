@@ -532,3 +532,17 @@ git log
 
 ## Deleting Branches (Continued)
 
+```bash
+git fetch -p
+```
+
+```bash
+git branch --all
+git fetch -p
+git branch --all
+git branch -d feature
+git branch --all
+```
+
+# 9. Three-Way Merges
+
