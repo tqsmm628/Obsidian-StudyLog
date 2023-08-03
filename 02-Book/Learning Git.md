@@ -507,3 +507,28 @@ git status
 git log
 ```
 
+## Incorporating Changes from the Remote Repository
+
+### Fetching Changes form the Remote Repository
+
+```bash
+git fetch <shortname>
+git fetch
+```
+
+```bash
+git log --all
+git fetch
+git log --all
+```
+
+### Integrating Changes into a Local Branch
+
+```bash
+git switch main
+git merge origin/main
+git log
+```
+
+## Deleting Branches (Continued)
+

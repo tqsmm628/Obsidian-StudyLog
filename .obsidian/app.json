@@ -6,5 +6,6 @@
   "alwaysUpdateLinks": true,
   "defaultViewMode": "source",
   "showLineNumber": false,
-  "promptDelete": false
+  "promptDelete": false,
+  "strictLineBreaks": true
 }
