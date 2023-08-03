@@ -458,3 +458,5 @@ git branch --all
 
 ### The origin Shortname
 
+## Deleting Branches
+
