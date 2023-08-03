@@ -477,3 +477,4 @@ git branch -d feature
 git branch --all
 ```
 
+## Git Collaboration and Branches
