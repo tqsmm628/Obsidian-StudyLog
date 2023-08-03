@@ -478,3 +478,13 @@ git branch --all
 ```
 
 ## Git Collaboration and Branches
+
+### Making a Commit in the Local Repository
+
+```bash
+echo "Green is the fourth color of the rainbow." >> rainbowcolors.txt
+git add rainbowcolors.txt
+git commit -m "green"
+git log
+```
+
