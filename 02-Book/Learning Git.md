@@ -490,3 +490,20 @@ git commit -m "green"
 git log
 ```
 
+### Pushing to the Remote Repository
+
+```bash
+git branch -vv
+```
+
+```bash
+git branch -vv
+git status
+```
+
+```bash
+git push
+git status
+git log
+```
+
