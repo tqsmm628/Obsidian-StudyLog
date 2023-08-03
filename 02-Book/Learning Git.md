@@ -460,3 +460,20 @@ git branch --all
 
 ## Deleting Branches
 
+```bash
+git push <shortname> -d <branch_name>
+```
+
+```bash
+git branch -d <branch_name>
+```
+
+```bash
+git branch --all
+git push origin -d feature
+git branch --all
+git switch main
+git branch -d feature
+git branch --all
+```
+
