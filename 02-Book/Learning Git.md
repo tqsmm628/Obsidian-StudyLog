@@ -546,3 +546,5 @@ git branch --all
 
 # 9. Three-Way Merges
 
+## State of the Local and Remote Repositories
+
