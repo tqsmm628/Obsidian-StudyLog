@@ -550,3 +550,5 @@ git branch --all
 
 ## Why Are Three-Way Merges Important?
 
+## Setting Up a Three-Way Merge Scenario
+
