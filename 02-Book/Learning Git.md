@@ -552,3 +552,21 @@ git branch --all
 
 ## Setting Up a Three-Way Merge Scenario
 
+```bash
+echo 'Brown is not a color in the rainbow.' > othercolors.txt
+git add othercolors.txt
+git commit -m 'brown'
+git log
+```
+
+## Defining Upstream Branches
+
+```bash
+git branch -u <shortname>/<branch_name>
+```
+
+```bash
+git branch -vv
+git branch -u origin/main
+git branch -vv
+```
