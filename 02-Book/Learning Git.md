@@ -548,3 +548,5 @@ git branch --all
 
 ## State of the Local and Remote Repositories
 
+## Why Are Three-Way Merges Important?
+
