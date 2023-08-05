@@ -625,3 +625,8 @@ git log
 
 ## Pulling Changes from a Remote Repository
 
+```bash
+git pull <shortname> <branch_name>
+git pull
+```
+
