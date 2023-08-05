@@ -604,3 +604,7 @@ git push
 git log
 ```
 
+## Three-Way Merge in Practice
+
+### Introducing VIM, the Command Line Text Editor
+
