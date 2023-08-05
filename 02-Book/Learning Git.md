@@ -645,3 +645,7 @@ git log
 
 ## Introducing Merge Conflicts
 
+## How to Resolve Merge Conflicts
+
+## Setting Up a Merge Conflict Scenario
+
