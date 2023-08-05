@@ -658,5 +658,14 @@ git log
 ```
 
 ```bash
+echo 'Violet is the seventh color of the rainbow.' >> rainbowcolors.txt
+git add rainbowcolors.txt
+git commit -m 'violet'
+git log
+```
 
+```bash
+git fetch
+git status
+git log --all
 ```
