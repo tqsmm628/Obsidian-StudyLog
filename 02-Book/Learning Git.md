@@ -596,4 +596,11 @@ git add rainbowcolors.txt
 git status
 ```
 
-## Working at that Same Time as Others on 
+## Working at that Same Time as Others on Different Files
+
+```bash
+git commit -m 'blue'
+git push
+git log
+```
+
