@@ -676,3 +676,15 @@ git log --all
 
 ### Step 2
 
+### Aborting a Merge
+
+```bash
+git merge --abort
+```
+
+## Resolving Merge Conflicts in Practice
+
+```bash
+git merge origin/main
+
+```
