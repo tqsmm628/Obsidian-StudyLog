@@ -612,5 +612,8 @@ git log
 
 ```bash
 git fetch
-
+git merge origin/main
+# edit commit message
+git log
 ```
+
