@@ -649,3 +649,11 @@ git log
 
 ## Setting Up a Merge Conflict Scenario
 
+```bash
+echo 'Indigo is the sixth color of the rainbow.' >> rainbowcolors.txt
+git add rainbowcolors.txt
+git commit -m 'indigo'
+git push
+git log
+```
+
