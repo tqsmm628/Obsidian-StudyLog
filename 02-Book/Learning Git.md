@@ -579,5 +579,21 @@ git status
 ```bash
 echo 'Bloo is the fifth color of the rainbow.' >> rainbowcolors.txt
 git status
-
 ```
+
+```bash
+git add rainbowcolors.txt
+git status
+```
+
+```bash
+# fix typo
+git status
+```
+
+```bash
+git add rainbowcolors.txt
+git status
+```
+
+## Working at that Same Time as Others on 
