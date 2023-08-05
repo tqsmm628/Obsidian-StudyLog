@@ -630,3 +630,14 @@ git pull <shortname> <branch_name>
 git pull
 ```
 
+```bash
+git pull
+git log
+```
+
+## State of the Local and Remote Repositories
+
+## Summary
+
+# 10. Merge Conflicts
+
