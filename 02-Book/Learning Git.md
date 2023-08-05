@@ -641,3 +641,7 @@ git log
 
 # 10. Merge Conflicts
 
+## State of the Local and Remote Repositories
+
+## Introducing Merge Conflicts
+
