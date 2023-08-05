@@ -570,3 +570,14 @@ git branch -vv
 git branch -u origin/main
 git branch -vv
 ```
+## Editing the Same File Multiple Times Between Commits
+
+```bash
+git status
+```
+
+```bash
+echo 'Bloo is the fifth color of the rainbow.' >> rainbowcolors.txt
+git status
+
+```
