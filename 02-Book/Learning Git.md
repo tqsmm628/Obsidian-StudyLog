@@ -608,3 +608,9 @@ git log
 
 ### Introducing VIM, the Command Line Text Editor
 
+### Executing the Three-Way Merge
+
+```bash
+git fetch
+
+```
