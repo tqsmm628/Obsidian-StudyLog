@@ -617,3 +617,11 @@ git merge origin/main
 git log
 ```
 
+```bash
+git cat-files -p 2258399
+git push
+git log
+```
+
+## Pulling Changes from a Remote Repository
+
