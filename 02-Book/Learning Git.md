@@ -766,3 +766,15 @@ git commit -m 'rainbow'
 git log
 ```
 
+## Preparing to Rebase
+
+```bash
+git fetch
+git log --all
+```
+
+## The Five Stages of the Rebase Process
+
+### Stage 1: Find the Common Ancestor
+
+### Stage 2: Store Information about the Branches i
