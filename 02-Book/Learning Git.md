@@ -745,3 +745,7 @@ git add rainbowcolors.txt othercolors.txt
 git status
 ```
 
+```bash
+git restore --staged <filename>
+```
+
