@@ -830,3 +830,6 @@ git log
 ## Hosting Service Specifics
 
 ## Why Use Pull Requests?
+
+## Understanding How Pull Requests Are Merged
+
