@@ -697,3 +697,16 @@ git log
 
 ## Staying Up to Date with a Remote Repository
 
+## Syncing the Repositories
+
+```bash
+git push
+git log
+git pull
+git log
+```
+
+## State of the Local and Remote Repositories
+
+## Summary
+
