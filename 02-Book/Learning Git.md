@@ -714,3 +714,5 @@ git log
 
 ## State of the Local and Remote Repositories
 
+## Integrating Changes in Git
+
