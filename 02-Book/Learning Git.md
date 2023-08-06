@@ -716,3 +716,9 @@ git log
 
 ## Integrating Changes in Git
 
+```bash
+git reabase <branch_name>
+```
+
+## Why Is Rebasing Helpful?
+
