@@ -710,3 +710,7 @@ git log
 
 ## Summary
 
+# 11. Rebasing
+
+## State of the Local and Remote Repositories
+

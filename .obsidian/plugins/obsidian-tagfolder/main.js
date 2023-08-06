@@ -63,7 +63,8 @@ var DEFAULT_SETTINGS = {
   useMultiPaneList: false,
   archiveTags: "",
   disableNarrowingDown: false,
-  expandUntaggedToRoot: false
+  expandUntaggedToRoot: false,
+  disableDragging: false
 };
 var VIEW_TYPE_SCROLL = "tagfolder-view-scroll";
 var EPOCH_MINUTE = 60;
@@ -1169,13 +1170,13 @@ function removeIntermediatePath(paths) {
   for (const v of paths) {
     const last = passed.pop();
     if (last !== void 0) {
-      if (!v.toLocaleLowerCase().startsWith(last.toLocaleLowerCase())) {
+      if (!(trimTrailingSlash(v.toLocaleLowerCase()) + "/").startsWith(trimTrailingSlash(last.toLocaleLowerCase()) + "/")) {
         passed.push(last);
       }
     }
     passed.push(v);
   }
-  return passed;
+  return passed.reverse();
 }
 function getTagMark(tagInfo2) {
   if (!tagInfo2)
@@ -2071,18 +2072,19 @@ function create_default_slot(ctx) {
   let div0;
   let t0_value = (
     /*isVisible*/
-    (ctx[16] ? (
+    (ctx[19] ? (
       /*item*/
       ctx[0].displayName
     ) : "") + ""
   );
   let t0;
   let t1;
+  let div1_data_path_value;
   let mounted;
   let dispose;
   let if_block = (
     /*isVisible*/
-    ctx[16] && create_if_block(ctx)
+    ctx[19] && create_if_block(ctx)
   );
   return {
     c() {
@@ -2094,11 +2096,19 @@ function create_default_slot(ctx) {
         if_block.c();
       attr(div0, "class", "tree-item-inner nav-file-title-content lsl-f");
       attr(div1, "class", "tree-item-self is-clickable nav-file-title");
+      attr(
+        div1,
+        "draggable",
+        /*draggable*/
+        ctx[6]
+      );
+      attr(div1, "data-path", div1_data_path_value = /*item*/
+      ctx[0].path);
       toggle_class(
         div1,
         "is-active",
         /*isActive*/
-        ctx[6]
+        ctx[7]
       );
     },
     m(target, anchor) {
@@ -2112,22 +2122,28 @@ function create_default_slot(ctx) {
         dispose = [
           listen(
             div1,
+            "dragstart",
+            /*dragStartFile*/
+            ctx[9]
+          ),
+          listen(
+            div1,
             "click",
             /*click_handler*/
-            ctx[11]
+            ctx[13]
           ),
           listen(
             div1,
             "mouseover",
             /*mouseover_handler*/
-            ctx[12]
+            ctx[14]
           ),
           listen(div1, "focus", focus_handler),
           listen(
             div1,
             "contextmenu",
             /*contextmenu_handler*/
-            ctx[13]
+            ctx[15]
           )
         ];
         mounted = true;
@@ -2135,15 +2151,15 @@ function create_default_slot(ctx) {
     },
     p(ctx2, dirty) {
       if (dirty & /*isVisible, item*/
-      65537 && t0_value !== (t0_value = /*isVisible*/
-      (ctx2[16] ? (
+      524289 && t0_value !== (t0_value = /*isVisible*/
+      (ctx2[19] ? (
         /*item*/
         ctx2[0].displayName
       ) : "") + ""))
         set_data(t0, t0_value);
       if (
         /*isVisible*/
-        ctx2[16]
+        ctx2[19]
       ) {
         if (if_block) {
           if_block.p(ctx2, dirty);
@@ -2156,13 +2172,27 @@ function create_default_slot(ctx) {
         if_block.d(1);
         if_block = null;
       }
-      if (dirty & /*isActive*/
+      if (dirty & /*draggable*/
       64) {
+        attr(
+          div1,
+          "draggable",
+          /*draggable*/
+          ctx2[6]
+        );
+      }
+      if (dirty & /*item*/
+      1 && div1_data_path_value !== (div1_data_path_value = /*item*/
+      ctx2[0].path)) {
+        attr(div1, "data-path", div1_data_path_value);
+      }
+      if (dirty & /*isActive*/
+      128) {
         toggle_class(
           div1,
           "is-active",
           /*isActive*/
-          ctx2[6]
+          ctx2[7]
         );
       }
     },
@@ -2182,15 +2212,15 @@ function create_fragment4(ctx) {
   let updating_isVisible;
   let current;
   function ondemandrender_isVisible_binding(value) {
-    ctx[14](value);
+    ctx[16](value);
   }
   let ondemandrender_props = {
     cssClass: "tree-item nav-file",
     $$slots: {
       default: [
         create_default_slot,
-        ({ isVisible }) => ({ 16: isVisible }),
-        ({ isVisible }) => isVisible ? 65536 : 0
+        ({ isVisible }) => ({ 19: isVisible }),
+        ({ isVisible }) => isVisible ? 524288 : 0
       ]
     },
     $$scope: { ctx }
@@ -2214,8 +2244,8 @@ function create_fragment4(ctx) {
     },
     p(ctx2, [dirty]) {
       const ondemandrender_changes = {};
-      if (dirty & /*$$scope, isActive, openFile, item, showMenu, trail, extraTagsHtml, isVisible*/
-      196719) {
+      if (dirty & /*$$scope, draggable, item, isActive, openFile, showMenu, trail, extraTagsHtml, isVisible*/
+      1573103) {
         ondemandrender_changes.$$scope = { dirty, ctx: ctx2 };
       }
       if (!updating_isVisible && dirty & /*isItemVisible*/
@@ -2246,8 +2276,9 @@ var focus_handler = () => {
 };
 function instance4($$self, $$props, $$invalidate) {
   let isActive;
+  let draggable;
   let $tagFolderSetting;
-  component_subscribe($$self, tagFolderSetting, ($$value) => $$invalidate(15, $tagFolderSetting = $$value));
+  component_subscribe($$self, tagFolderSetting, ($$value) => $$invalidate(17, $tagFolderSetting = $$value));
   let { item } = $$props;
   let { trail } = $$props;
   let { openFile } = $$props;
@@ -2259,13 +2290,23 @@ function instance4($$self, $$props, $$invalidate) {
   let _currentActiveFilePath = "";
   let _setting = $tagFolderSetting;
   currentFile.subscribe((path) => {
-    $$invalidate(9, _currentActiveFilePath = path);
+    $$invalidate(11, _currentActiveFilePath = path);
   });
   tagFolderSetting.subscribe((setting) => {
-    $$invalidate(10, _setting = setting);
+    $$invalidate(12, _setting = setting);
   });
   let extraTagsHtml = "";
   let isItemVisible = false;
+  const dm = app.dragManager;
+  function dragStartFile(args) {
+    if (!draggable)
+      return;
+    const file = app.vault.getAbstractFileByPath(item.path);
+    const param = dm.dragFile(args, file);
+    if (param) {
+      return dm.onDragStart(args, param);
+    }
+  }
   const click_handler = (evt) => openFile(item.path, evt.metaKey || evt.ctrlKey);
   const mouseover_handler = (e) => {
     handleMouseover(e, item.path);
@@ -2285,22 +2326,27 @@ function instance4($$self, $$props, $$invalidate) {
     if ("showMenu" in $$props2)
       $$invalidate(3, showMenu = $$props2.showMenu);
     if ("hoverPreview" in $$props2)
-      $$invalidate(8, hoverPreview = $$props2.hoverPreview);
+      $$invalidate(10, hoverPreview = $$props2.hoverPreview);
   };
   $$self.$$.update = () => {
     if ($$self.$$.dirty & /*item, _currentActiveFilePath*/
-    513) {
+    2049) {
       $:
-        $$invalidate(6, isActive = item.path == _currentActiveFilePath);
+        $$invalidate(7, isActive = item.path == _currentActiveFilePath);
     }
     if ($$self.$$.dirty & /*isItemVisible, item, trail, _setting*/
-    1043) {
+    4115) {
       $: {
         if (isItemVisible) {
           const tagsLeft = uniqueCaseIntensive(getExtraTags(item.tags, [...trail], _setting.reduceNestedParent).map((e) => trimSlash(e, false, true)).filter((e) => e != ""));
           $$invalidate(5, extraTagsHtml = `${tagsLeft.map((e) => `<span class="tf-tag">${escapeStringToHTML(renderSpecialTag(e))}</span>`).join("")}`);
         }
       }
+    }
+    if ($$self.$$.dirty & /*_setting*/
+    4096) {
+      $:
+        $$invalidate(6, draggable = !_setting.disableDragging);
     }
   };
   return [
@@ -2310,8 +2356,10 @@ function instance4($$self, $$props, $$invalidate) {
     showMenu,
     isItemVisible,
     extraTagsHtml,
+    draggable,
     isActive,
     handleMouseover,
+    dragStartFile,
     hoverPreview,
     _currentActiveFilePath,
     _setting,
@@ -2329,7 +2377,7 @@ var V2TreeItemComponent = class extends SvelteComponent {
       trail: 1,
       openFile: 2,
       showMenu: 3,
-      hoverPreview: 8
+      hoverPreview: 10
     });
   }
 };
@@ -2343,7 +2391,7 @@ function get_each_context2(ctx, list, i) {
 }
 function get_each_context_1(ctx, list, i) {
   const child_ctx = ctx.slice();
-  child_ctx[50] = list[i];
+  child_ctx[54] = list[i];
   return child_ctx;
 }
 function get_each_context_2(ctx, list, i) {
@@ -2353,10 +2401,10 @@ function get_each_context_2(ctx, list, i) {
 }
 function get_each_context_3(ctx, list, i) {
   const child_ctx = ctx.slice();
-  child_ctx[55] = list[i][0];
+  child_ctx[59] = list[i][0];
   child_ctx[0] = list[i][1];
   child_ctx[1] = list[i][2];
-  child_ctx[56] = list[i][3];
+  child_ctx[60] = list[i][3];
   return child_ctx;
 }
 function create_else_block(ctx) {
@@ -2364,12 +2412,12 @@ function create_else_block(ctx) {
   let updating_isVisible;
   let current;
   function ondemandrender_isVisible_binding(value) {
-    ctx[39](value);
+    ctx[42](value);
   }
   let ondemandrender_props = {
     cssClass: `tree-item-self${!/*isRoot*/
     ctx[3] ? " is-clickable mod-collapsible" : ""} nav-folder-title tag-folder-title${/*isActive*/
-    ctx[20] ? " is-active" : ""}`,
+    ctx[21] ? " is-active" : ""}`,
     $$slots: { default: [create_default_slot2] },
     $$scope: { ctx }
   };
@@ -2393,13 +2441,13 @@ function create_else_block(ctx) {
     p(ctx2, dirty) {
       const ondemandrender_changes = {};
       if (dirty[0] & /*isRoot, isActive*/
-      1048584)
+      2097160)
         ondemandrender_changes.cssClass = `tree-item-self${!/*isRoot*/
         ctx2[3] ? " is-clickable mod-collapsible" : ""} nav-folder-title tag-folder-title${/*isActive*/
-        ctx2[20] ? " is-active" : ""}`;
-      if (dirty[0] & /*trail, _items, tagsDispHtml, isFolderVisible, collapsed, folderIcon*/
-      2695236 | dirty[1] & /*$$scope*/
-      268435456) {
+        ctx2[21] ? " is-active" : ""}`;
+      if (dirty[0] & /*trail, _items, draggable, tagsDispHtml, isFolderVisible, collapsed, folderIcon*/
+      5840964 | dirty[2] & /*$$scope*/
+      2) {
         ondemandrender_changes.$$scope = { dirty, ctx: ctx2 };
       }
       if (!updating_isVisible && dirty[0] & /*isFolderVisible*/
@@ -2544,27 +2592,55 @@ function create_else_block_1(ctx) {
 }
 function create_if_block_3(ctx) {
   let div;
+  let mounted;
+  let dispose;
   return {
     c() {
       div = element("div");
       attr(div, "class", "tagfolder-titletagname");
+      attr(
+        div,
+        "draggable",
+        /*draggable*/
+        ctx[19]
+      );
     },
     m(target, anchor) {
       insert(target, div, anchor);
       div.innerHTML = /*tagsDispHtml*/
-      ctx[19];
+      ctx[20];
+      if (!mounted) {
+        dispose = listen(
+          div,
+          "dragstart",
+          /*dragStartName*/
+          ctx[26]
+        );
+        mounted = true;
+      }
     },
     p(ctx2, dirty) {
       if (dirty[0] & /*tagsDispHtml*/
-      524288)
+      1048576)
         div.innerHTML = /*tagsDispHtml*/
-        ctx2[19];
+        ctx2[20];
       ;
+      if (dirty[0] & /*draggable*/
+      524288) {
+        attr(
+          div,
+          "draggable",
+          /*draggable*/
+          ctx2[19]
+        );
+      }
     },
     d(detaching) {
       if (detaching) {
         detach(div);
       }
+      mounted = false;
+      dispose();
     }
   };
 }
@@ -2591,7 +2667,7 @@ function create_default_slot2(ctx) {
       return create_if_block_4;
     return create_else_block_2;
   }
-  let current_block_type = select_block_type_1(ctx, [-1, -1]);
+  let current_block_type = select_block_type_1(ctx, [-1, -1, -1]);
   let if_block0 = current_block_type(ctx);
   function select_block_type_2(ctx2, dirty) {
     if (
@@ -2601,7 +2677,7 @@ function create_default_slot2(ctx) {
       return create_if_block_3;
     return create_else_block_1;
   }
-  let current_block_type_1 = select_block_type_2(ctx, [-1, -1]);
+  let current_block_type_1 = select_block_type_2(ctx, [-1, -1, -1]);
   let if_block1 = current_block_type_1(ctx);
   return {
     c() {
@@ -2619,9 +2695,15 @@ function create_default_slot2(ctx) {
         div0,
         "is-collapsed",
         /*collapsed*/
-        ctx[21]
+        ctx[22]
       );
       attr(span, "class", "itemscount");
+      attr(
+        span,
+        "draggable",
+        /*draggable*/
+        ctx[19]
+      );
       attr(div1, "class", "tagfolder-quantity itemscount");
       attr(div2, "class", "tree-item-inner nav-folder-title-content lsl-f");
     },
@@ -2641,13 +2723,19 @@ function create_default_slot2(ctx) {
             div0,
             "click",
             /*toggleFolder*/
-            ctx[23]
+            ctx[24]
+          ),
+          listen(
+            span,
+            "dragstart",
+            /*dragStartFiles*/
+            ctx[25]
           ),
           listen(
             div1,
             "click",
             /*click_handler*/
-            ctx[38]
+            ctx[41]
           )
         ];
         mounted = true;
@@ -2666,12 +2754,12 @@ function create_default_slot2(ctx) {
         }
       }
       if (dirty[0] & /*collapsed*/
-      2097152) {
+      4194304) {
         toggle_class(
           div0,
           "is-collapsed",
           /*collapsed*/
-          ctx2[21]
+          ctx2[22]
         );
       }
       if (current_block_type_1 === (current_block_type_1 = select_block_type_2(ctx2, dirty)) && if_block1) {
@@ -2688,6 +2776,15 @@ function create_default_slot2(ctx) {
       8192 && t2_value !== (t2_value = /*_items*/
       ((_b2 = (_a2 = ctx2[13]) == null ? void 0 : _a2.length) != null ? _b2 : 0) + ""))
         set_data(t2, t2_value);
+      if (dirty[0] & /*draggable*/
+      524288) {
+        attr(
+          span,
+          "draggable",
+          /*draggable*/
+          ctx2[19]
+        );
+      }
     },
     d(detaching) {
       if (detaching) {
@@ -2881,11 +2978,11 @@ function create_each_block_3(ctx) {
     props: {
       items: (
         /*subitems*/
-        ctx[56]
+        ctx[60]
       ),
       thisName: (
         /*f*/
-        ctx[55]
+        ctx[59]
       ),
       trail: [
         .../*trail*/
@@ -2893,7 +2990,7 @@ function create_each_block_3(ctx) {
         .../*suppressLevels*/
         ctx[15],
         /*f*/
-        ctx[55]
+        ctx[59]
       ],
       folderIcon: (
         /*folderIcon*/
@@ -2953,11 +3050,11 @@ function create_each_block_3(ctx) {
       if (dirty[0] & /*childrenDisp*/
       131072)
         v2treefoldercomponent_changes.items = /*subitems*/
-        ctx2[56];
+        ctx2[60];
       if (dirty[0] & /*childrenDisp*/
       131072)
         v2treefoldercomponent_changes.thisName = /*f*/
-        ctx2[55];
+        ctx2[59];
       if (dirty[0] & /*trail, suppressLevels, childrenDisp*/
       163844)
         v2treefoldercomponent_changes.trail = [
@@ -2966,7 +3063,7 @@ function create_each_block_3(ctx) {
           .../*suppressLevels*/
           ctx2[15],
           /*f*/
-          ctx2[55]
+          ctx2[59]
         ];
       if (dirty[0] & /*folderIcon*/
       64)
@@ -3114,7 +3211,7 @@ function create_each_block_1(ctx) {
     props: {
       item: (
         /*item*/
-        ctx[50]
+        ctx[54]
       ),
       openFile: (
         /*openFile*/
@@ -3150,7 +3247,7 @@ function create_each_block_1(ctx) {
       if (dirty[0] & /*leftOverItemsDisp*/
       262144)
         treeitemitemcomponent_changes.item = /*item*/
-        ctx2[50];
+        ctx2[54];
       if (dirty[0] & /*openFile*/
       512)
         treeitemitemcomponent_changes.openFile = /*openFile*/
@@ -3287,10 +3384,10 @@ function create_fragment5(ctx) {
       return 0;
     return 1;
   }
-  current_block_type_index = select_block_type(ctx, [-1, -1]);
+  current_block_type_index = select_block_type(ctx, [-1, -1, -1]);
   if_block0 = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
   let if_block1 = !/*collapsed*/
-  ctx[21] && create_if_block2(ctx);
+  ctx[22] && create_if_block2(ctx);
   return {
     c() {
       div = element("div");
@@ -3299,7 +3396,7 @@ function create_fragment5(ctx) {
       if (if_block1)
         if_block1.c();
       attr(div, "class", div_class_value = `tree-item nav-folder${/*collapsed*/
-      ctx[21] ? " is-collapsed" : ""}${/*isRoot*/
+      ctx[22] ? " is-collapsed" : ""}${/*isRoot*/
       ctx[3] ? " mod-root" : ""}`);
     },
     m(target, anchor) {
@@ -3313,11 +3410,11 @@ function create_fragment5(ctx) {
         dispose = [
           listen(div, "click", stop_propagation(
             /*toggleFolder*/
-            ctx[23]
+            ctx[24]
           )),
           listen(div, "contextmenu", stop_propagation(
             /*contextmenu_handler*/
-            ctx[40]
+            ctx[43]
           ))
         ];
         mounted = true;
@@ -3345,11 +3442,11 @@ function create_fragment5(ctx) {
         if_block0.m(div, t);
       }
       if (!/*collapsed*/
-      ctx2[21]) {
+      ctx2[22]) {
         if (if_block1) {
           if_block1.p(ctx2, dirty);
           if (dirty[0] & /*collapsed*/
-          2097152) {
+          4194304) {
             transition_in(if_block1, 1);
           }
         } else {
@@ -3366,8 +3463,8 @@ function create_fragment5(ctx) {
         check_outros();
       }
       if (!current || dirty[0] & /*collapsed, isRoot*/
-      2097160 && div_class_value !== (div_class_value = `tree-item nav-folder${/*collapsed*/
-      ctx2[21] ? " is-collapsed" : ""}${/*isRoot*/
+      4194312 && div_class_value !== (div_class_value = `tree-item nav-folder${/*collapsed*/
+      ctx2[22] ? " is-collapsed" : ""}${/*isRoot*/
       ctx2[3] ? " mod-root" : ""}`)) {
         attr(div, "class", div_class_value);
       }
@@ -3427,10 +3524,11 @@ function instance5($$self, $$props, $$invalidate) {
   let trailLower;
   let isActive;
   let tagsDispHtml;
+  let draggable;
   let $tagFolderSetting;
   let $v2expandedTags;
-  component_subscribe($$self, tagFolderSetting, ($$value) => $$invalidate(45, $tagFolderSetting = $$value));
-  component_subscribe($$self, v2expandedTags, ($$value) => $$invalidate(37, $v2expandedTags = $$value));
+  component_subscribe($$self, tagFolderSetting, ($$value) => $$invalidate(48, $tagFolderSetting = $$value));
+  component_subscribe($$self, v2expandedTags, ($$value) => $$invalidate(40, $v2expandedTags = $$value));
   let { thisName = "" } = $$props;
   let { items = [] } = $$props;
   let _items = [];
@@ -3451,20 +3549,20 @@ function instance5($$self, $$props, $$invalidate) {
       return;
     const collapsedNew = !expTags.has(trailKey);
     if (collapsed != collapsedNew) {
-      $$invalidate(21, collapsed = collapsedNew);
+      $$invalidate(22, collapsed = collapsedNew);
     }
   });
   let _setting = $tagFolderSetting;
   tagFolderSetting.subscribe((setting) => {
-    $$invalidate(25, _setting = setting);
+    $$invalidate(28, _setting = setting);
   });
   let _tagInfo = {};
   tagInfo.subscribe((info) => {
-    $$invalidate(26, _tagInfo = info);
+    $$invalidate(29, _tagInfo = info);
   });
   let _currentActiveFilePath = "";
   currentFile.subscribe((path) => {
-    $$invalidate(27, _currentActiveFilePath = path);
+    $$invalidate(30, _currentActiveFilePath = path);
   });
   function handleOpenScroll(e, trails, filePaths) {
     openScrollView(null, "", joinPartialPath(removeIntermediatePath(trails)).join(", "), filePaths);
@@ -3569,6 +3667,29 @@ function instance5($$self, $$props, $$invalidate) {
       batchedChildren = [];
     }
   }
+  const dm = app.dragManager;
+  function dragStartFiles(args) {
+    if (!draggable)
+      return;
+    const files = _items.map((e) => app.vault.getAbstractFileByPath(e.path));
+    const param = dm.dragFiles(args, files);
+    if (param) {
+      return dm.onDragStart(args, param);
+    }
+  }
+  function dragStartName(args) {
+    if (!draggable)
+      return;
+    const expandedTagsAll = [
+      ...ancestorToLongestTag(ancestorToTags(joinPartialPath(removeIntermediatePath([...trail, ...suppressLevels]))))
+    ].map((e) => trimTrailingSlash(e));
+    const expandedTags = expandedTagsAll.map((e) => e.split("/").filter((ee) => !isSpecialTag(ee)).join("/")).filter((e) => e != "").map((e) => "#" + e).join(" ").trim();
+    args.dataTransfer.setData("text/plain", expandedTags);
+    args.dataTransfer.setData("Text", expandedTags);
+    args.title = expandedTags;
+    args.draggable = true;
+    dm.onDragStart(args, args);
+  }
   const click_handler = (e) => handleOpenScroll(e, trail, _items.map((e2) => e2.path));
   function ondemandrender_isVisible_binding(value) {
     isFolderVisible = value;
@@ -3580,7 +3701,7 @@ function instance5($$self, $$props, $$invalidate) {
   };
   $$self.$$set = ($$props2) => {
     if ("thisName" in $$props2)
-      $$invalidate(24, thisName = $$props2.thisName);
+      $$invalidate(27, thisName = $$props2.thisName);
     if ("items" in $$props2)
       $$invalidate(12, items = $$props2.items);
     if ("tagName" in $$props2)
@@ -3612,23 +3733,23 @@ function instance5($$self, $$props, $$invalidate) {
     if ($$self.$$.dirty[0] & /*trail*/
     4) {
       $:
-        $$invalidate(36, trailKey = trail.join("*"));
+        $$invalidate(39, trailKey = trail.join("*"));
     }
     if ($$self.$$.dirty[0] & /*isRoot*/
     8 | $$self.$$.dirty[1] & /*$v2expandedTags, trailKey*/
-    96) {
+    768) {
       $:
-        $$invalidate(21, collapsed = !isRoot && !$v2expandedTags.has(trailKey));
+        $$invalidate(22, collapsed = !isRoot && !$v2expandedTags.has(trailKey));
     }
     if ($$self.$$.dirty[0] & /*_setting, _tagInfo*/
-    100663296) {
+    805306368) {
       $:
-        $$invalidate(34, sortFunc = selectCompareMethodTags(_setting, _tagInfo));
+        $$invalidate(37, sortFunc = selectCompareMethodTags(_setting, _tagInfo));
     }
     if ($$self.$$.dirty[0] & /*trail*/
     4) {
       $:
-        $$invalidate(35, trailLower = trail.map((e) => e.toLocaleLowerCase()));
+        $$invalidate(38, trailLower = trail.map((e) => e.toLocaleLowerCase()));
     }
     if ($$self.$$.dirty[0] & /*items, _items*/
     12288) {
@@ -3639,7 +3760,7 @@ function instance5($$self, $$props, $$invalidate) {
       }
     }
     if ($$self.$$.dirty[0] & /*tagName, tagNameDisp, thisName, _tagInfo*/
-    83886083) {
+    671088643) {
       $: {
         if (tagName == "" && tagNameDisp.length == 0) {
           const [wTagName, wTagNameDisp] = parseTagName(thisName, _tagInfo);
@@ -3648,22 +3769,22 @@ function instance5($$self, $$props, $$invalidate) {
         }
       }
     }
-    if ($$self.$$.dirty[0] & /*_items, trail, isMainTree, _setting, depth, previousTrail, isInDedicatedTag, thisName, tagName, isSuppressibleLevel*/
-    1660969013 | $$self.$$.dirty[1] & /*trailLower*/
-    16) {
+    if ($$self.$$.dirty[0] & /*_items, trail, isMainTree, _setting, depth, isInDedicatedTag, thisName, tagName*/
+    402677813 | $$self.$$.dirty[1] & /*previousTrail, isSuppressibleLevel, trailLower*/
+    134) {
       $: {
         $$invalidate(14, isInDedicatedTag = false);
         let isMixedDedicatedTag = false;
         if (_items) {
-          $$invalidate(28, tags = []);
-          $$invalidate(29, previousTrail = "");
+          $$invalidate(31, tags = []);
+          $$invalidate(32, previousTrail = "");
           if (trail.length >= 1 && trail[trail.length - 1].endsWith("/")) {
-            $$invalidate(29, previousTrail = trail[trail.length - 1]);
+            $$invalidate(32, previousTrail = trail[trail.length - 1]);
             $$invalidate(14, isInDedicatedTag = true);
             isMixedDedicatedTag = true;
           }
           if (isMainTree && (!(_setting === null || _setting === void 0 ? void 0 : _setting.expandLimit) || (_setting === null || _setting === void 0 ? void 0 : _setting.expandLimit) && depth < _setting.expandLimit)) {
-            $$invalidate(30, isSuppressibleLevel = false);
+            $$invalidate(33, isSuppressibleLevel = false);
             const tagsAll = uniqueCaseIntensive(_items.flatMap((e) => [...e.tags]));
             const lastTrailTagLC = trimTrailingSlash(previousTrail).toLocaleLowerCase();
             if (isInDedicatedTag && tagsAll.some((e) => e.toLocaleLowerCase() == lastTrailTagLC)) {
@@ -3685,11 +3806,11 @@ function instance5($$self, $$props, $$invalidate) {
             if (!_setting.doNotSimplifyTags) {
               if (_items.length == 1) {
                 existTagsFiltered1 = existTags;
-                $$invalidate(30, isSuppressibleLevel = true);
+                $$invalidate(33, isSuppressibleLevel = true);
               } else {
                 const allChildTags = uniqueCaseIntensive(_items.map((e) => e.tags.sort().join("**")));
                 if (allChildTags.length == 1) {
-                  $$invalidate(30, isSuppressibleLevel = true);
+                  $$invalidate(33, isSuppressibleLevel = true);
                   existTagsFiltered1 = existTags;
                 }
               }
@@ -3734,26 +3855,26 @@ function instance5($$self, $$props, $$invalidate) {
                   existTagsFiltered4.push(tag);
                 }
               }
-              $$invalidate(28, tags = uniqueCaseIntensive(removeIntermediatePath(existTagsFiltered4)));
+              $$invalidate(31, tags = uniqueCaseIntensive(removeIntermediatePath(existTagsFiltered4)));
             } else {
-              $$invalidate(28, tags = uniqueCaseIntensive(removeIntermediatePath(existTagsFiltered3)));
+              $$invalidate(31, tags = uniqueCaseIntensive(removeIntermediatePath(existTagsFiltered3)));
             }
           }
         }
       }
     }
-    if ($$self.$$.dirty[0] & /*_setting, depth, tags, isMainTree, isSuppressibleLevel, previousTrail, _tagInfo, _items, isRoot*/
-    1979719736 | $$self.$$.dirty[1] & /*trailLower, sortFunc*/
-    24) {
+    if ($$self.$$.dirty[0] & /*_setting, depth, isMainTree, _tagInfo, _items, isRoot*/
+    805314616 | $$self.$$.dirty[1] & /*tags, trailLower, isSuppressibleLevel, previousTrail, sortFunc*/
+    199) {
       $: {
         $$invalidate(15, suppressLevels = []);
         if ((_setting === null || _setting === void 0 ? void 0 : _setting.expandLimit) && depth >= _setting.expandLimit) {
-          $$invalidate(31, children2 = []);
+          $$invalidate(34, children2 = []);
           $$invalidate(15, suppressLevels = getExtraTags(tags, trailLower, _setting.reduceNestedParent));
         } else if (!isMainTree) {
-          $$invalidate(31, children2 = []);
+          $$invalidate(34, children2 = []);
         } else if (isSuppressibleLevel) {
-          $$invalidate(31, children2 = []);
+          $$invalidate(34, children2 = []);
           $$invalidate(15, suppressLevels = getExtraTags(tags, trailLower, _setting.reduceNestedParent));
         } else {
           const previousTrailLC = previousTrail.toLocaleLowerCase();
@@ -3797,69 +3918,70 @@ function instance5($$self, $$props, $$invalidate) {
             ]).filter((child) => child[V2FI_IDX_CHILDREN].length != 0);
           }
           wChildren = wChildren.sort(sortFunc);
-          $$invalidate(31, children2 = wChildren);
+          $$invalidate(34, children2 = wChildren);
         }
       }
     }
     if ($$self.$$.dirty[0] & /*_items, _currentActiveFilePath*/
-    134225920) {
+    1073750016) {
       $:
-        $$invalidate(20, isActive = _items && _items.some((e) => e.path == _currentActiveFilePath));
+        $$invalidate(21, isActive = _items && _items.some((e) => e.path == _currentActiveFilePath));
     }
-    if ($$self.$$.dirty[0] & /*isSuppressibleLevel, isInDedicatedTag, tagNameDisp, suppressLevels*/
-    1073790978) {
+    if ($$self.$$.dirty[0] & /*isInDedicatedTag, tagNameDisp, suppressLevels*/
+    49154 | $$self.$$.dirty[1] & /*isSuppressibleLevel*/
+    4) {
       $: {
         if (isSuppressibleLevel && isInDedicatedTag) {
-          $$invalidate(33, tagsDisp = [
+          $$invalidate(36, tagsDisp = [
             [
               ...tagNameDisp,
               ...suppressLevels.flatMap((e) => e.split("/").map((e2) => renderSpecialTag(e2)))
             ]
           ]);
         } else if (isSuppressibleLevel) {
-          $$invalidate(33, tagsDisp = [
+          $$invalidate(36, tagsDisp = [
             tagNameDisp,
             ...suppressLevels.map((e) => e.split("/").map((e2) => renderSpecialTag(e2)))
           ]);
         } else {
-          $$invalidate(33, tagsDisp = [tagNameDisp]);
+          $$invalidate(36, tagsDisp = [tagNameDisp]);
         }
       }
     }
     if ($$self.$$.dirty[0] & /*isFolderVisible*/
     65536 | $$self.$$.dirty[1] & /*tagsDisp*/
-    4) {
+    32) {
       $:
-        $$invalidate(19, tagsDispHtml = isFolderVisible ? tagsDisp.map((e) => `<span class="tagfolder-tag tag-tag">${e.map((ee) => `<span class="tf-tag-each">${escapeStringToHTML(ee)}</span>`).join("")}</span>`).join("") : "");
+        $$invalidate(20, tagsDispHtml = isFolderVisible ? tagsDisp.map((e) => `<span class="tagfolder-tag tag-tag">${e.map((ee) => `<span class="tf-tag-each">${escapeStringToHTML(ee)}</span>`).join("")}</span>`).join("") : "");
     }
-    if ($$self.$$.dirty[0] & /*_setting, isMainTree, isRoot, isSuppressibleLevel, _items, isInDedicatedTag*/
-    1107320856 | $$self.$$.dirty[1] & /*children, leftOverItems*/
-    3) {
+    if ($$self.$$.dirty[0] & /*_setting, isMainTree, isRoot, _items, isInDedicatedTag*/
+    268460056 | $$self.$$.dirty[1] & /*isSuppressibleLevel, children, leftOverItems*/
+    28) {
       $: {
         if (_setting.useMultiPaneList && isMainTree) {
-          $$invalidate(32, leftOverItems = []);
+          $$invalidate(35, leftOverItems = []);
         } else {
           if (isRoot && isMainTree && !isSuppressibleLevel) {
             if (_setting.expandUntaggedToRoot) {
-              $$invalidate(32, leftOverItems = _items.filter((e) => e.tags.contains("_untagged")));
+              $$invalidate(35, leftOverItems = _items.filter((e) => e.tags.contains("_untagged")));
             } else {
-              $$invalidate(32, leftOverItems = []);
+              $$invalidate(35, leftOverItems = []);
             }
           } else if (isRoot && !isMainTree) {
-            $$invalidate(32, leftOverItems = _items);
+            $$invalidate(35, leftOverItems = _items);
           } else {
             if (_setting.hideItems == "NONE") {
-              $$invalidate(32, leftOverItems = _items);
+              $$invalidate(35, leftOverItems = _items);
             } else if (_setting.hideItems == "DEDICATED_INTERMIDIATES" && isInDedicatedTag || _setting.hideItems == "ALL_EXCEPT_BOTTOM") {
-              $$invalidate(32, leftOverItems = _items.filter((e) => !children2.map((e2) => e2[V2FI_IDX_CHILDREN]).flat().find((ee) => e.path == ee.path)));
+              $$invalidate(35, leftOverItems = _items.filter((e) => !children2.map((e2) => e2[V2FI_IDX_CHILDREN]).flat().find((ee) => e.path == ee.path)));
             } else {
-              $$invalidate(32, leftOverItems = _items);
+              $$invalidate(35, leftOverItems = _items);
             }
           }
         }
         if (_setting.sortExactFirst) {
           const exactHereItems = _items.filter((e) => !children2.map((e2) => e2[V2FI_IDX_CHILDREN]).flat().find((ee) => e.path == ee.path));
-          $$invalidate(32, leftOverItems = [...leftOverItems].sort((a, b) => {
+          $$invalidate(35, leftOverItems = [...leftOverItems].sort((a, b) => {
             const aIsInChildren = exactHereItems.some((e) => e.path == a.path);
             const bIsInChildren = exactHereItems.some((e) => e.path == b.path);
             return (aIsInChildren ? -1 : 0) + (bIsInChildren ? 1 : 0);
@@ -3868,16 +3990,21 @@ function instance5($$self, $$props, $$invalidate) {
       }
     }
     if ($$self.$$.dirty[1] & /*leftOverItems*/
-    2) {
+    16) {
       $: {
         applyLeftOverItems(leftOverItems);
       }
     }
     if ($$self.$$.dirty[1] & /*children*/
-    1) {
+    8) {
       $: {
         applyChildren(children2);
       }
+    }
+    if ($$self.$$.dirty[0] & /*_setting*/
+    268435456) {
+      $:
+        $$invalidate(19, draggable = !_setting.disableDragging);
     }
   };
   return [
@@ -3900,11 +4027,14 @@ function instance5($$self, $$props, $$invalidate) {
     isFolderVisible,
     childrenDisp,
     leftOverItemsDisp,
+    draggable,
     tagsDispHtml,
     isActive,
     collapsed,
     handleOpenScroll,
     toggleFolder,
+    dragStartFiles,
+    dragStartName,
     thisName,
     _setting,
     _tagInfo,
@@ -3934,7 +4064,7 @@ var V2TreeFolderComponent = class extends SvelteComponent {
       create_fragment5,
       safe_not_equal,
       {
-        thisName: 24,
+        thisName: 27,
         items: 12,
         tagName: 0,
         tagNameDisp: 1,
@@ -3950,7 +4080,7 @@ var V2TreeFolderComponent = class extends SvelteComponent {
         openScrollView: 11
       },
       null,
-      [-1, -1]
+      [-1, -1, -1]
     );
   }
 };
@@ -5963,6 +6093,12 @@ var TagFolderSettingTab = class extends import_obsidian8.PluginSettingTab {
       text2.inputEl.setAttribute("type", "number");
       text2.inputEl.setAttribute("min", "250");
       return text2;
+    });
+    new import_obsidian8.Setting(containerEl).setName("Disable dragging tags").setDesc("The `Dragging tags` is using internal APIs. If something happens, please disable this once and try again.").addToggle((toggle) => {
+      toggle.setValue(this.plugin.settings.disableDragging).onChange(async (value) => {
+        this.plugin.settings.disableDragging = value;
+        await this.plugin.saveSettings();
+      });
     });
     containerEl.createEl("h3", { text: "Utilities" });
     new import_obsidian8.Setting(containerEl).setName("Dumping tags for reporting bugs").setDesc(
