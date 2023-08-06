@@ -823,3 +823,9 @@ git log
 
 # 12. Pull Requests (Merge Requests)
 
+## State of the Local and Remote Repositories
+
+## Introducing Pull Requests
+
+## Hosting Service Specifics
+
