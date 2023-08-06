@@ -833,3 +833,23 @@ git log
 
 ## Understanding How Pull Requests Are Merged
 
+## Preparing to Make a Pull Request
+
+```bash
+git switch -c topic
+echo 'Pink is not a color in the rainbow.' >> othercolors.txt
+git add othercolors.txt
+git commit -m 'pink'
+git log
+```
+
+## An Easier Way to Define Upstream Branches
+
+```bash
+git branch -vv
+git push
+git push --set-upstream origin topic
+git branch -vv
+git log
+```
+
