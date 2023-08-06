@@ -929,5 +929,10 @@ cd rainbow
 git init -b main
 echo 'Red is the first color of the rainbow.' > rainbowcolors.txt
 git add rainbowcolors.txt
-
+git commit -m 'red'
+echo 'Orange is the second color of the rainbow.' >> rainbowcolors.txt
+git add rainbowcolors.txt
+git commit -m 'orange'
+git branch feature
+git switch feature
 ```
