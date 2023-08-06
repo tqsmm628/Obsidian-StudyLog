@@ -777,4 +777,9 @@ git log --all
 
 ### Stage 1: Find the Common Ancestor
 
-### Stage 2: Store Information about the Branches i
+### Stage 2: Store Information about the Branches involved in the Rebase
+
+### Stage 3: Reset HEAD
+
+### Stage 4: Apply and Commit the Changes
+
