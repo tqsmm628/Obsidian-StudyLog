@@ -722,3 +722,15 @@ git reabase <branch_name>
 
 ## Why Is Rebasing Helpful?
 
+## Setting Up the Rebasing Example
+
+```bash
+echo 'Gray is not a color in the rainbow.' >> othercolors.txt
+git add othercolors.txt
+git commit -m 'gray'
+git push
+git log
+```
+
+## Unstaging and Staging Files
+
