@@ -883,3 +883,51 @@ git log
 
 # Appendix A. Chapter Prerequisites
 
+## Prerequisite Setup for All Chapters
+
+```bash
+git config --global user.name '<name>'
+git config --global user.email '<email>'
+```
+
+## Chapter 2 Prerequisite Setup
+
+```bash
+cd desktop
+mkdir rainbow
+cd rainbow
+```
+
+## Chapter 3 Prerequisite Setup
+
+```bash
+cd desktop
+mkdir rainbow
+cd rainbow
+git init -b main
+echo 'Red is the first color of the rainbow.' > rainbowcolors.txt
+```
+
+## Chapter 4 Prerequisite Setup
+
+```bash
+cd desktop
+mkdir rainbow
+cd rainbow
+git init -b main
+echo 'Red is the first color of the rainbow.' > rainbowcolors.txt
+git add rainbowcolors.txt
+git commit -m 'red'
+```
+
+## Chapter 5 Prerequisite Setup
+
+```bash
+cd desktop
+mkdir rainbow
+cd rainbow
+git init -b main
+echo 'Red is the first color of the rainbow.' > rainbowcolors.txt
+git add rainbowcolors.txt
+
+```
