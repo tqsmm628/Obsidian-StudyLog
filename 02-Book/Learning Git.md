@@ -943,3 +943,58 @@ git push origin feature
 
 ## Chapter 9 Prerequisite Setup
 
+```bash
+git remote add origin
+git push origin main
+git clone ... friend-rainbow
+cd friend-rainbow
+```
+
+## Chapter 10 Prerequisite Setup
+
+## Chapter 11 Prerequisite Setup
+
+## Chapter 12 Prerequisite Setup
+
+# Appendix B. Command Quick Reference
+
+## Chapter 1
+
+```bash
+clear
+pwd
+ls
+ls -a
+cd <path_to_directory>
+mkdir <directory_name>
+git config --global --list
+git config --global user.name '<name>'
+git config --global user.email '<email>'
+```
+
+## Chapter 2
+
+```bash
+git init
+git init -b <branch_name>
+```
+
+## Chapter 3
+
+```bash
+git status
+git add <filename>
+git add <filename> <filename>
+git add -A
+git commit -m '<message>'
+git log
+```
+
+## Chapter 4
+
+```bash
+git branch
+git branch <new_branch_name>
+git switch <branch_name>
+git 
+```
