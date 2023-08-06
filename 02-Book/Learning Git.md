@@ -686,5 +686,14 @@ git merge --abort
 
 ```bash
 git merge origin/main
-
+git status
+# fix merge conflicts
+# remove markers
+git add rainbowcolors.txt
+git status
+git commit -m 'merge commit 2'
+git log
 ```
+
+## Staying Up to Date with a Remote Repository
+
