@@ -734,3 +734,14 @@ git log
 
 ## Unstaging and Staging Files
 
+```bash
+echo 'Black is not a color in the rainbow.' >> othercolors.txt
+echo 'These are the colors of the rainbow.' >> rainbowcolors.txt
+git status
+```
+
+```bash
+git add rainbowcolors.txt othercolors.txt
+git status
+```
+
