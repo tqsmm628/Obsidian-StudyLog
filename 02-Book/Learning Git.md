@@ -783,3 +783,24 @@ git log --all
 
 ### Stage 4: Apply and Commit the Changes
 
+### Stage 5: Switch onto the Rebased Branch
+
+## Rebasing and Merge Conflicts
+
+```bash
+git rebase --continue
+git rebase --abort
+```
+
+## Rebasing a Branch in Practice
+
+```bash
+git rebase origin/main
+git status
+```
+
+```bash
+git add othercolors.txt
+git status
+
+```
