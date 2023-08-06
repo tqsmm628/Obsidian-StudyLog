@@ -1,7 +1,7 @@
 # Reading Books
 
 ```dataview
-table source, publisher, status
+table publisher, author, status
 from #book
 where file.folder = "02-Book" and status != "done"
 ```

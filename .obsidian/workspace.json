@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "afc9b7b403cb3ad3",
+        "id": "4a34b0629b5a45c9",
         "type": "tabs",
         "children": [
           {
-            "id": "1b93e2df371b156d",
+            "id": "59e0ed5273e0ef69",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-Book/大人學破局思考.md",
+                "file": "02-Book/Building Web APIs with ASP.NET Core.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-Book/大人學破局思考.md",
+                "file": "02-Book/Building Web APIs with ASP.NET Core.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-Book/大人學破局思考.md",
+                "file": "02-Book/Building Web APIs with ASP.NET Core.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-Book/大人學破局思考.md"
+                "file": "02-Book/Building Web APIs with ASP.NET Core.md"
               }
             }
           },
@@ -171,23 +171,24 @@
       "daily-notes:開啟今天的每日筆記": false
     }
   },
-  "active": "1b93e2df371b156d",
+  "active": "59e0ed5273e0ef69",
   "lastOpenFiles": [
     "README.md",
     "02-Book/Learning Git.md",
+    "02-Book/Building Web APIs with ASP.NET Core.md",
+    "02-Book/除了死，都只是擦傷.md",
+    "02-Book/我可能錯了.md",
+    "02-Book/大人學破局思考.md",
     "othercolors.txt",
     "90-DailyNotes/2023-08-03.md",
     "97-Templates/book.md",
     "97-Templates",
     "90-DailyNotes/2023-07-27.md",
-    "02-Book/大人學破局思考.md",
     "02-Book/_index.md",
-    "02-Book/我可能錯了.md",
     "90-DailyNotes/2023-07-19.md",
     "90-DailyNotes/2023-07-20.md",
     "90-DailyNotes/2023-07-21.md",
     "90-DailyNotes/2023-07-25.md",
-    "02-Book/除了死，都只是擦傷.md",
     "03-LinksToRead/obsidian插件dataview官方文档翻译.md",
     "03-LinksToRead/_README.md",
     "03-LinksToRead",
