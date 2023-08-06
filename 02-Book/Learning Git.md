@@ -859,3 +859,27 @@ git log
 
 ## Merging a Pull Request
 
+## Deleting Remote Branches
+
+## Syncing the Local Repositories and Cleaning Up
+
+```bash
+git switch main
+git pull -p
+git branch -d topic
+git log
+```
+
+```bash
+git pull
+git log
+```
+
+## State of the Local and Remote Repositories
+
+## Summary
+
+# Epilogue
+
+# Appendix A. Chapter Prerequisites
+
