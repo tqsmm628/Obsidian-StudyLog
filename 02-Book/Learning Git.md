@@ -829,3 +829,4 @@ git log
 
 ## Hosting Service Specifics
 
+## Why Use Pull Requests?
