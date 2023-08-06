@@ -901,9 +901,6 @@ cd rainbow
 ## Chapter 3 Prerequisite Setup
 
 ```bash
-cd desktop
-mkdir rainbow
-cd rainbow
 git init -b main
 echo 'Red is the first color of the rainbow.' > rainbowcolors.txt
 ```
@@ -911,11 +908,6 @@ echo 'Red is the first color of the rainbow.' > rainbowcolors.txt
 ## Chapter 4 Prerequisite Setup
 
 ```bash
-cd desktop
-mkdir rainbow
-cd rainbow
-git init -b main
-echo 'Red is the first color of the rainbow.' > rainbowcolors.txt
 git add rainbowcolors.txt
 git commit -m 'red'
 ```
@@ -923,16 +915,31 @@ git commit -m 'red'
 ## Chapter 5 Prerequisite Setup
 
 ```bash
-cd desktop
-mkdir rainbow
-cd rainbow
-git init -b main
-echo 'Red is the first color of the rainbow.' > rainbowcolors.txt
-git add rainbowcolors.txt
-git commit -m 'red'
+
 echo 'Orange is the second color of the rainbow.' >> rainbowcolors.txt
 git add rainbowcolors.txt
 git commit -m 'orange'
 git branch feature
 git switch feature
+echo 'Yellow is the third color of the rainbow.' >> rainbowcolors.txt
+git add rainbowcolors.txt
+git commit -m 'yellow'
 ```
+
+## Chapter 6 and 7 Prerequisite Setup
+
+```bash
+
+git switch main
+git merge feature
+```
+
+## Chapter 8 Prerequisite Setup
+
+```bash
+git switch feature
+git push origin feature
+```
+
+## Chapter 9 Prerequisite Setup
+
