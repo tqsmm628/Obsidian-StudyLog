@@ -749,3 +749,20 @@ git status
 git restore --staged <filename>
 ```
 
+```bash
+git restore --staged rainbowcolors.txt
+git status
+```
+
+```bash
+git commit -m 'black'
+git status
+git log
+```
+
+```bash
+git add rainbowcolors.txt
+git commit -m 'rainbow'
+git log
+```
+
