@@ -3,7 +3,7 @@ subtitle: A Hands-On and Visual Guide to the Basics of Git
 source: google play
 publisher: o'reilly
 author: Anna Skoulikari
-status: doing
+status: done
 ---
 #book
 
@@ -996,5 +996,69 @@ git log
 git branch
 git branch <new_branch_name>
 git switch <branch_name>
-git 
+git checkout <branch_name>
 ```
+
+## Chapter 5
+
+```bash
+git merge <branch_name>
+git log --all
+git checkout <commit_hash>
+git switch -c <new_branch_name>
+git checkout -b <new_branch_name>
+```
+
+## Chapter 7
+
+```bash
+git push
+git remote add <shortname> <URL>
+git remote
+git remote -v
+git push <shortname> <branch_name>
+git branch --all
+```
+
+## Chapter 8
+
+```bash
+git clone <URL> <directory_name>
+git push <shortname> -d <branch_name>
+git branch -d <branch_name>
+git branch -vv
+git fetch <shortname>
+git fetch
+git fetch -p
+```
+
+## Chapter 9
+
+```bash
+git branch -u <shortname>/<branch_name>
+git pull <shortname> <branch_name>
+git pull
+```
+
+## Chapter 10
+
+```bash
+git merge --abort
+```
+
+## Chapter 11
+
+```bash
+git rebase <branch_name>
+git restore --staged <filename>
+git rebase --continue
+git rebase --abort
+```
+
+# Appendix C. Visual Language Reference
+
+## Commits
+
+## Git Diagram
+
+## Repository Diagram
