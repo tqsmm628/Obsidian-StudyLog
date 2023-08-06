@@ -808,3 +808,18 @@ git log
 
 ## The Golden Rule of Rebasing
 
+## Syncing the Repositories
+
+```bash
+git push
+git log
+git pull
+git log
+```
+
+## State of the Local and Remote Repositories
+
+## Summary
+
+# 12. Pull Requests (Merge Requests)
+
