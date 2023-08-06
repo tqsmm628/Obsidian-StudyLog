@@ -802,5 +802,9 @@ git status
 ```bash
 git add othercolors.txt
 git status
-
+git rebase --continue
+git log
 ```
+
+## The Golden Rule of Rebasing
+
