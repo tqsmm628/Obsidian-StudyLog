@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "02-Book/最強筋肉社長的零壓力生存術.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ea126a16b4c0e9c8",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "02-Book/最強筋肉社長的零壓力生存術.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "02-Book/最強筋肉社長的零壓力生存術.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "02-Book/最強筋肉社長的零壓力生存術.md"
               }
             }
           },
@@ -172,9 +173,10 @@
   },
   "active": "59e0ed5273e0ef69",
   "lastOpenFiles": [
-    "02-Book/最強筋肉社長.md",
-    "02-Book/一本書終結你的拖延症.md",
     "README.md",
+    "02-Book/最強筋肉社長的零壓力生存術.md",
+    "02-Book/一本書終結你的拖延症.md",
+    "02-Book/最強筋肉社長.md",
     "02-Book/大人學破局思考.md",
     "02-Book/Building Web APIs with ASP.NET Core.md",
     "02-Book/Learning Git.md",
