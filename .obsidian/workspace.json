@@ -11,8 +11,12 @@
             "id": "2b87f6ad9e63ffd8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "02-Book/一本書終結你的拖延症.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ea126a16b4c0e9c8",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "02-Book/一本書終結你的拖延症.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "02-Book/一本書終結你的拖延症.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "02-Book/一本書終結你的拖延症.md"
+              }
             }
           },
           {
@@ -157,13 +166,14 @@
   },
   "active": "2b87f6ad9e63ffd8",
   "lastOpenFiles": [
+    "README.md",
+    "02-Book/最強筋肉社長的零壓力生存術.md",
     "conflict-files-obsidian-git.md",
     "90-DailyNotes/2023-08-08.md",
     "97-Templates/book.md",
     "97-Templates",
     "90-DailyNotes/2023-08-03.md",
     "90-DailyNotes/2023-07-27.md",
-    "02-Book/最強筋肉社長的零壓力生存術.md",
     "02-Book/最強筋肉社長.md",
     "02-Book/我可能錯了.md",
     "02-Book/大人學破局思考.md",
@@ -173,7 +183,6 @@
     "90-DailyNotes/2023-07-25.md",
     "02-Book/除了死，都只是擦傷.md",
     "02-Book/_README.md",
-    "README.md",
     "03-LinksToRead/obsidian插件dataview官方文档翻译.md",
     "90-DailyNotes/2023-07-21.md",
     "03-LinksToRead/_README.md",
