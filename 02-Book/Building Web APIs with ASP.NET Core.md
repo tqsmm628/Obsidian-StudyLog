@@ -11,3 +11,11 @@ status: doing
 
 ## 1 Web APIs at a glance
 
+### 1.1 Web APIs
+
+![](https://drek4537l1klr.cloudfront.net/desanctis/Figures/01-01.png)
+
+#### 1.1.1 Overview
+
+![](https://drek4537l1klr.cloudfront.net/desanctis/Figures/01-02.png)
+
