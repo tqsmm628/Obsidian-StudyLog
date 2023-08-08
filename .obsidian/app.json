@@ -5,5 +5,7 @@
   "newFileFolderPath": "99-Library",
   "alwaysUpdateLinks": true,
   "defaultViewMode": "source",
-  "showLineNumber": false
+  "showLineNumber": false,
+  "promptDelete": false,
+  "strictLineBreaks": false
 }

@@ -8,15 +8,11 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4f19c6b64fa13e34",
+            "id": "2b87f6ad9e63ffd8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "90-DailyNotes/2023-08-08.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "90-DailyNotes/2023-08-08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "90-DailyNotes/2023-08-08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "90-DailyNotes/2023-08-08.md"
-              }
+              "state": {}
             }
           },
           {
@@ -163,10 +155,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4f19c6b64fa13e34",
+  "active": "2b87f6ad9e63ffd8",
   "lastOpenFiles": [
-    "02-Book/Learning Git.md",
+    "conflict-files-obsidian-git.md",
     "90-DailyNotes/2023-08-08.md",
+    "97-Templates/book.md",
+    "97-Templates",
+    "90-DailyNotes/2023-08-03.md",
+    "90-DailyNotes/2023-07-27.md",
+    "02-Book/最強筋肉社長的零壓力生存術.md",
+    "02-Book/最強筋肉社長.md",
+    "02-Book/我可能錯了.md",
+    "02-Book/大人學破局思考.md",
+    "02-Book/一本書終結你的拖延症.md",
+    "02-Book/Building Web APIs with ASP.NET Core.md",
+    "02-Book/Learning Git.md",
     "90-DailyNotes/2023-07-25.md",
     "02-Book/除了死，都只是擦傷.md",
     "02-Book/_README.md",
@@ -177,7 +180,6 @@
     "03-LinksToRead",
     "90-DailyNotes/2023-07-20.md",
     "90-DailyNotes/2023-07-19.md",
-    "97-Templates",
     "02-Book",
     "99-Library",
     "80-Inbox",
