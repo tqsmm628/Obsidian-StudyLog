@@ -27,3 +27,5 @@ publisher: Leanpub
 
 ## 自動實作屬性
 
+## 匿名型別
+
