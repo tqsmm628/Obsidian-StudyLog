@@ -61,3 +61,5 @@ publisher: Leanpub
 
 ### 泛型介面與結構
 
+## 泛型方法
+
