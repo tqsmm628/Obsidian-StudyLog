@@ -77,3 +77,9 @@ publisher: Leanpub
 
 #### 泛型介面的 Covariance 範例
 
+### Contravariance
+
+## 重點回顧
+
+# 委派與 Lambda 表示式
+
