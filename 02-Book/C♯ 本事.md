@@ -63,3 +63,5 @@ publisher: Leanpub
 
 ## 泛型方法
 
+### 型別推斷
+
