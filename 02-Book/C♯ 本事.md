@@ -65,3 +65,5 @@ publisher: Leanpub
 
 ### 型別推斷
 
+### 擴充方法與泛型類別
+
