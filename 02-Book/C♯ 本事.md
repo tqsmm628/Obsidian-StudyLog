@@ -83,3 +83,7 @@ publisher: Leanpub
 
 # 委派與 Lambda 表示式
 
+## 委派
+
+### 為什麼要用委派？
+
