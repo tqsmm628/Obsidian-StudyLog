@@ -75,3 +75,5 @@ publisher: Leanpub
 
 ### Covariance
 
+#### 泛型介面的 Covariance 範例
+
