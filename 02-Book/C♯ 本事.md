@@ -73,3 +73,5 @@ publisher: Leanpub
 
 ### 核心概念：型別相容
 
+### Covariance
+
