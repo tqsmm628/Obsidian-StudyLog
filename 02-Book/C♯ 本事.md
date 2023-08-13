@@ -87,3 +87,5 @@ publisher: Leanpub
 
 ### 為什麼要用委派？
 
+### C# 1.0 的寫法
+
