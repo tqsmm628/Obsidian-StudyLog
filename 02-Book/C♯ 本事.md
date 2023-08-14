@@ -147,3 +147,7 @@ publisher: Leanpub
 
 ## 使用 event 關鍵字
 
+### 提供觸發事件的方法
+
+## .NET 事件程式設計的慣例
+
