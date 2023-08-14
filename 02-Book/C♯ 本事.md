@@ -151,3 +151,13 @@ publisher: Leanpub
 
 ## .NET 事件程式設計的慣例
 
+### 不要傳回值
+
+### 在參數列提供來源物件
+
+### 使用 EventArgs 來包裝參數
+
+### 使用現成的 EventHandler 型別
+
+## 更好的設計
+
