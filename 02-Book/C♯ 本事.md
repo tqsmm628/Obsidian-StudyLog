@@ -145,3 +145,5 @@ publisher: Leanpub
 
 ### 加入與移除事件處理常式
 
+## 使用 event 關鍵字
+
