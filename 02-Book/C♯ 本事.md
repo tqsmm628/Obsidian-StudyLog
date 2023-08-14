@@ -107,3 +107,9 @@ publisher: Leanpub
 
 ## Lambda 表示式
 
+### 運算式 lambda
+
+### 陳述式 lambda
+
+### 重點整理：概念圖
+
