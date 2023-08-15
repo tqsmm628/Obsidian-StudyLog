@@ -179,3 +179,9 @@ publisher: Leanpub
 
 # C# 6
 
+## nameof 表示式
+
+## 字串插值
+
+## Null 條件運算式
+
