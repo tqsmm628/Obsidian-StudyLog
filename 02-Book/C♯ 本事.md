@@ -195,3 +195,9 @@ publisher: Leanpub
 
 ### C# 7 的改進
 
+## 索引初始設定式
+
+## using static 陳述式
+
+## 例外篩選條件
+
