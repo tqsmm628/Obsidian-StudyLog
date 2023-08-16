@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-Book/最強筋肉社長的零壓力生存術.md",
+                "file": "02-Book/想死不如健身！改變一生的超科學理由.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-Book/最強筋肉社長的零壓力生存術.md",
+                "file": "02-Book/想死不如健身！改變一生的超科學理由.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-Book/最強筋肉社長的零壓力生存術.md",
+                "file": "02-Book/想死不如健身！改變一生的超科學理由.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-Book/最強筋肉社長的零壓力生存術.md"
+                "file": "02-Book/想死不如健身！改變一生的超科學理由.md"
               }
             }
           },
@@ -173,13 +173,15 @@
   },
   "active": "59e0ed5273e0ef69",
   "lastOpenFiles": [
+    "02-Book/最強筋肉社長.md",
+    "02-Book/最強筋肉社長的人生哲學.md",
+    "02-Book/最強筋肉社長的零壓力生存術.md",
+    "02-Book/想死不如健身！改變一生的超科學理由.md",
     "README.md",
     "02-Book/C♯ 本事.md",
     "02-Book/一本書終結你的拖延症.md",
-    "02-Book/最強筋肉社長的零壓力生存術.md",
     "02-Book/Building Web APIs with ASP.NET Core.md",
     "90-DailyNotes/2023-08-08.md",
-    "02-Book/最強筋肉社長.md",
     "02-Book/大人學破局思考.md",
     "02-Book/Learning Git.md",
     "02-Book/除了死，都只是擦傷.md",
