@@ -7,5 +7,6 @@
   "defaultViewMode": "source",
   "showLineNumber": false,
   "promptDelete": false,
-  "strictLineBreaks": false
+  "strictLineBreaks": false,
+  "focusNewTab": true
 }
