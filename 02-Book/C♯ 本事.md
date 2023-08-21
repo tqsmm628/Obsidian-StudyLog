@@ -223,3 +223,4 @@ publisher: Leanpub
 
 ## 模式匹配
 
+### 模式匹配之 is 陳述式
