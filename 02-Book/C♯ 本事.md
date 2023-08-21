@@ -224,3 +224,13 @@ publisher: Leanpub
 ## 模式匹配
 
 ### 模式匹配之 is 陳述式
+
+### 模式匹配之 switch 陳述式
+
+### 支援泛型
+
+## 區域函式
+
+### 捕捉區域變數
+
+## 更好讀的shu zhi biao shi fa
