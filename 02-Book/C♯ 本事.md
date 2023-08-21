@@ -233,4 +233,5 @@ publisher: Leanpub
 
 ### 捕捉區域變數
 
-## 更好讀的shu zhi biao shi fa
+## 更好讀的數值表示法
+
