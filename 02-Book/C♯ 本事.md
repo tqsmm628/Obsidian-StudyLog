@@ -305,3 +305,17 @@ publisher: Leanpub
 
 ### ToString 方法
 
+### Equals 方法
+
+### Deconstruct 方法
+
+### 結語
+
+## 樣式比對的改進
+
+## 改寫回傳型別
+
+## IEnumerator 更容易支援 foreach
+
+## Lambda 捨棄參數
+
