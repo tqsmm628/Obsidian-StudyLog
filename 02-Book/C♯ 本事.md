@@ -303,3 +303,5 @@ publisher: Leanpub
 
 ### 複製物件
 
+### ToString 方法
+
