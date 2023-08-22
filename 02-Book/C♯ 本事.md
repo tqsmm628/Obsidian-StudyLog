@@ -263,4 +263,33 @@ publisher: Leanpub
 
 #### in 與多載方法
 
-### 唯du結構
+### 唯讀結構
+
+### 只能放在堆疊的結構 (ref struct)
+
+## 非後置的具名引數
+
+## private protected 修飾詞
+
+## 結語
+
+# C# 8
+
+## 結構成員可宣告唯讀
+
+## 預設介面實作
+
+## 可為 Null 的參考型別
+
+### 開啟 Nullable Reference Types 功能
+
+### 在個別檔案中使用 \#nullable 指示詞
+
+### 專案與方案層級的設定
+
+## 重點整理
+
+# C# 9
+
+## 頂層語句
+
