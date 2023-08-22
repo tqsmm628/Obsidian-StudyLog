@@ -369,3 +369,13 @@ publisher: Leanpub
 
 ## IEnumerable 介面
 
+## IEnumerable<\T> 與 IEnumerator<\T> 介面
+
+## 重點回顧
+
+# LINQ
+
+## 基本觀念
+
+### C# 的 LINQ 表示式
+
