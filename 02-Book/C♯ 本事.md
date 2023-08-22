@@ -293,4 +293,9 @@ publisher: Leanpub
 
 ## 頂層語句
 
-## new 
+## new 物件時可省略型別
+
+## Init-only Setter
+
+## 記錄
+
