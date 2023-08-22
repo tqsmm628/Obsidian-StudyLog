@@ -319,3 +319,15 @@ publisher: Leanpub
 
 ## Lambda 捨棄參數
 
+## Interop 方面的改進
+
+## 其他改進
+
+# C# 10
+
+## File-scoped 命名空間
+
+## 全域引用
+
+### 使用 C# 檔案來管理全域引用
+
