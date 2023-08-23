@@ -25,3 +25,17 @@ publisher: O'Reilly
 
 # Chapter 1. Introduction C# and .NET
 
+## Object Orientation
+
+### Unified type system
+
+### Classes and interfaces
+
+### Properties, methods, and events
+
+### Functions can be treated as values
+
+### C# supports patterns for purity
+
+## Type Safety
+
