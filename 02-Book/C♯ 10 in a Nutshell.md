@@ -13,3 +13,15 @@ publisher: O'Reilly
 
 ## What You Need to Use This Book
 
+## Conventions Used in This Book
+
+## Using Code Examples
+
+## O'Reilly Online Learning
+
+## How to Contact Us
+
+## Acknowledgements
+
+# Chapter 1. Introduction C# and .NET
+
