@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-Book/C♯ 本事.md",
+                "file": "02-Book/C♯ 10 in a Nutshell.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ea126a16b4c0e9c8",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-Book/C♯ 本事.md",
+                "file": "02-Book/C♯ 10 in a Nutshell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-Book/C♯ 本事.md",
+                "file": "02-Book/C♯ 10 in a Nutshell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-Book/C♯ 本事.md"
+                "file": "02-Book/C♯ 10 in a Nutshell.md"
               }
             }
           },
@@ -173,10 +174,11 @@
   "active": "59e0ed5273e0ef69",
   "lastOpenFiles": [
     "README.md",
+    "02-Book/C♯ 10 in a Nutshell.md",
     "02-Book/拯救手機腦.md",
+    "02-Book/C♯ 本事.md",
     "02-Book/除了死，都只是擦傷.md",
     "02-Book/我可能錯了.md",
-    "02-Book/C♯ 本事.md",
     "02-Book/最強筋肉社長的人生哲學.md",
     "02-Book/想死不如健身！改變一生的超科學理由.md",
     "02-Book/最強筋肉社長.md",
