@@ -39,3 +39,5 @@ publisher: O'Reilly
 
 ## Type Safety
 
+## Memory Management
+
