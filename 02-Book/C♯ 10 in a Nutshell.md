@@ -41,3 +41,9 @@ publisher: O'Reilly
 
 ## Memory Management
 
+## Platform Support
+
+## CLRs, BCLs, and Runtimes
+
+### Common Language Runtime
+
