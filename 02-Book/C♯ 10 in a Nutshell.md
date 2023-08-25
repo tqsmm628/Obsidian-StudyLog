@@ -51,3 +51,5 @@ publisher: O'Reilly
 
 ### Runtimes
 
+#### .NET 6
+
