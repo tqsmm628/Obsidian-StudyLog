@@ -109,3 +109,13 @@ publisher: O'Reilly
 
 #### Using declarations
 
+#### Read-only members
+
+#### Static local methods
+
+#### Default interface members
+
+#### Switch expressions
+
+#### Tuple, positional, and property patterns
+
