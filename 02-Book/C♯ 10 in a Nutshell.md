@@ -229,3 +229,7 @@ publisher: O'Reilly
 
 ### Comments
 
+## Type Basics
+
+### Predefined Type Examples
+
