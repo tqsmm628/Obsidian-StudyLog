@@ -99,3 +99,13 @@ publisher: O'Reilly
 
 #### Interop improvements
 
+#### Other new features
+
+### What's New in C# 8.0
+
+#### Indices and ranges
+
+#### Null-coalescing assignment
+
+#### Using declarations
+
