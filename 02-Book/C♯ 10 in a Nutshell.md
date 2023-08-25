@@ -149,3 +149,35 @@ publisher: O'Reilly
 
 ### What's New in C# 6.0
 
+#### roslyn
+
+#### null-conditional operator
+#### Expression-bodied functions
+
+#### Property initializers
+
+#### Index initializers
+
+#### String interpolation
+
+#### Exception filters
+
+#### using static directive
+
+#### nameof()
+
+### What's New in C# 5.0
+#### async/await
+
+### What's New in C# 4.0
+
+#### Dynamic binding
+
+#### Optional parameters
+
+#### Type variance
+
+#### COM interoperability
+
+### What's New in C# 3.0
+
