@@ -145,3 +145,7 @@ publisher: O'Reilly
 
 #### Tuples
 
+#### throw expressions
+
+### What's New in C# 6.0
+
