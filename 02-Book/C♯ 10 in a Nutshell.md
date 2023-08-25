@@ -77,3 +77,17 @@ publisher: O'Reilly
 
 #### Record structs
 
+#### Lambda expression enhancements
+
+#### Nested property patterns
+
+#### CallerArgumentExpression
+
+#### Other new features
+
+### What's New in C# 9.0
+
+#### Top-level statements
+
+#### Init-only setters
+
