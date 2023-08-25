@@ -53,3 +53,9 @@ publisher: O'Reilly
 
 #### .NET 6
 
+#### MAUI
+
+#### UWP and WinUI 3
+
+#### .NET Framework
+
