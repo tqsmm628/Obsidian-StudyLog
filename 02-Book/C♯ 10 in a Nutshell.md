@@ -91,3 +91,11 @@ publisher: O'Reilly
 
 #### Init-only setters
 
+#### Records
+
+#### Pattern-matching improvements
+
+#### Target-typed new expressions
+
+#### Interop improvements
+
