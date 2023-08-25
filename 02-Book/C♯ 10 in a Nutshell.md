@@ -59,3 +59,21 @@ publisher: O'Reilly
 
 #### .NET Framework
 
+### Niche Runtimes
+
+## A Brief History of C#
+
+### What's New in C# 10
+
+#### File-scoped namespaces
+
+#### The global using directive
+
+#### Nondestructive mutation for anonymous types
+
+#### New deconstruction syntax
+
+#### Field initializers and parameterless constructors in structs
+
+#### Record structs
+
