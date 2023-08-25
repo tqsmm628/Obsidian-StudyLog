@@ -119,3 +119,29 @@ publisher: O'Reilly
 
 #### Tuple, positional, and property patterns
 
+#### Nullable reference types
+
+#### Asynchronous streams
+
+### What's New in C# 7.x
+
+#### C# 7.3
+
+#### C# 7.2
+
+#### C# 7.1
+
+#### Numeric literal improvements
+
+#### Out variables and discards
+
+#### Type patterns and pattern variables
+
+#### Local methods
+
+#### More expression-bodied members
+
+#### Deconstructors
+
+#### Tuples
+
