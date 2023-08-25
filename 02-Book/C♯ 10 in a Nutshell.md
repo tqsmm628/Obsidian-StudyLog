@@ -181,3 +181,38 @@ publisher: O'Reilly
 
 ### What's New in C# 3.0
 
+#### LINQ
+
+#### Implicitly typed local variables
+
+#### Object initializers
+
+#### Lambda expressions
+
+#### Extension methods
+
+#### Query expressions
+
+#### Expression trees
+
+#### Automatic properties
+
+#### Partial methods
+
+### What's New in C# 2.0
+
+#### Generics
+
+#### nullable value types
+
+#### iterators
+
+#### anonymous methods
+
+#### partial classes
+
+#### static classes
+
+# Chapter 2. C# Language Basics
+
+## 
