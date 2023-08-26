@@ -271,3 +271,7 @@ publisher: O'Reilly
 
 #### Numeric suffixes
 
+### Numeric Conversions
+
+#### Converting between integral types
+
