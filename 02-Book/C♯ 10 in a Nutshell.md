@@ -241,3 +241,7 @@ publisher: O'Reilly
 
 #### Constructors and instantiation
 
+#### Instance versus static members
+
+#### The public keyword
+
