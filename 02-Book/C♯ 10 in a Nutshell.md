@@ -235,3 +235,9 @@ publisher: O'Reilly
 
 ### Custom Types
 
+#### Members of a type
+
+#### Symmetry of predefined types and custom types
+
+#### Constructors and instantiation
+
