@@ -263,3 +263,5 @@ publisher: O'Reilly
 
 ### Predefined Type Taxonomy
 
+## Numeric Types
+
