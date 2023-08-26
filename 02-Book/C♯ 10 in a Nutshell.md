@@ -265,3 +265,9 @@ publisher: O'Reilly
 
 ## Numeric Types
 
+### Numeric Literals
+
+#### Numeric literal type inference
+
+#### Numeric suffixes
+
