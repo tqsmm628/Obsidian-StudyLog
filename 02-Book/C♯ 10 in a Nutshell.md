@@ -233,3 +233,5 @@ publisher: O'Reilly
 
 ### Predefined Type Examples
 
+### Custom Types
+
