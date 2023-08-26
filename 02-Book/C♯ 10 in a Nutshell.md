@@ -279,3 +279,9 @@ publisher: O'Reilly
 
 #### Converting between floating-point and integral types
 
+#### Decimal conversions
+
+### Arithmetic Operators
+
+### Increment and Decrement Operators
+
