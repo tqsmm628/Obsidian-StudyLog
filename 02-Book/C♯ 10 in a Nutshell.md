@@ -285,3 +285,11 @@ publisher: O'Reilly
 
 ### Increment and Decrement Operators
 
+### Specialized Operations on Integral Types
+
+#### Division
+
+#### Overflow
+
+#### Overflow check operators
+
