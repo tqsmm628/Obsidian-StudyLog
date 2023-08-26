@@ -253,5 +253,7 @@ publisher: O'Reilly
 
 ### Value Types Versus Reference Types
 
-#### Value Types
+#### Value types
+
+#### Reference types
 
