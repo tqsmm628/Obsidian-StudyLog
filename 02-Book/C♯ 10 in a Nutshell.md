@@ -275,3 +275,7 @@ publisher: O'Reilly
 
 #### Converting between integral types
 
+#### Converting between floating-point types
+
+#### Converting between floating-point and integral types
+
