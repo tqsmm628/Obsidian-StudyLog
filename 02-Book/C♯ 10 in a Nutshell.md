@@ -293,3 +293,9 @@ publisher: O'Reilly
 
 #### Overflow check operators
 
+#### Overflow checking for constant expressions
+
+#### Bitwise operators
+
+### 8- and 16-Bit Integral Types
+
