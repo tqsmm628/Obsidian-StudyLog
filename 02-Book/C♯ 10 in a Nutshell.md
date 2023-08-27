@@ -299,3 +299,5 @@ publisher: O'Reilly
 
 ### 8- and 16-Bit Integral Types
 
+### Special Float and Double Values
+
