@@ -301,3 +301,5 @@ publisher: O'Reilly
 
 ### Special Float and Double Values
 
+### double Versus decimal
+
