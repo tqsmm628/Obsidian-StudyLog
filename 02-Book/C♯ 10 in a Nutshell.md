@@ -325,3 +325,15 @@ publisher: O'Reilly
 
 #### String interpolation
 
+#### String comparisons
+
+#### Constant interpolated strings (C# 10)
+
+## Arrays
+
+### Default Element Initialization
+
+#### Value types versus reference types
+
+### Indices and Ranges
+
