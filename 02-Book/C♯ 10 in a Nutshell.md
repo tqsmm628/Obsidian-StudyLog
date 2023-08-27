@@ -303,3 +303,9 @@ publisher: O'Reilly
 
 ### double Versus decimal
 
+### Real Number Rounding Errors
+
+## Boolean Type and Operators
+
+### bool Conversions
+
