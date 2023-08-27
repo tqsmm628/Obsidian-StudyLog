@@ -309,3 +309,9 @@ publisher: O'Reilly
 
 ### bool Conversions
 
+### Equality and Comparison Operators
+
+### Conditional Operators
+
+#### Conditional operator (ternary operator)
+
