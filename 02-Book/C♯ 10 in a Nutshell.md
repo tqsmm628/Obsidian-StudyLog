@@ -319,3 +319,7 @@ publisher: O'Reilly
 
 ### Char Conversions
 
+### String Type
+
+#### String concatenation
+
