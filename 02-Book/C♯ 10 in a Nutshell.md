@@ -315,3 +315,7 @@ publisher: O'Reilly
 
 #### Conditional operator (ternary operator)
 
+## Strings and Characters
+
+### Char Conversions
+
