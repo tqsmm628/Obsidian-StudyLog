@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "02-Book/Get the Guy.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ea126a16b4c0e9c8",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "02-Book/Get the Guy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "02-Book/Get the Guy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "02-Book/Get the Guy.md"
               }
             }
           },
@@ -172,9 +173,10 @@
   },
   "active": "59e0ed5273e0ef69",
   "lastOpenFiles": [
-    "02-Book/拯救手機腦.md",
     "README.md",
+    "02-Book/Concurrency in C♯ Cookbook.md",
     "02-Book/Get the Guy.md",
+    "02-Book/拯救手機腦.md",
     "02-Book/C♯ 10 in a Nutshell.md",
     "02-Book/C♯ 本事.md",
     "02-Book/除了死，都只是擦傷.md",
@@ -199,7 +201,6 @@
     "90-DailyNotes/2023-07-21.md",
     "90-DailyNotes/2023-07-25.md",
     "03-LinksToRead/obsidian插件dataview官方文档翻译.md",
-    "03-LinksToRead/_README.md",
     "03-LinksToRead",
     "02-Book",
     "99-Library",
