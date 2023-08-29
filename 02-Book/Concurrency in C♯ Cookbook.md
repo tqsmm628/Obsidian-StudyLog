@@ -11,4 +11,5 @@ publisher: O'Reilly
 
 ## 1.2. Introduction to Asynchronous Programming
 
-## 1.3. Introduction t
+## 1.3. Introduction to Parallel Programming
+
