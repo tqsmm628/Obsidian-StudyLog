@@ -352,3 +352,10 @@ publisher: O'Reilly
 ### Bounds Checking
 
 ## Variables and Parameters
+
+### The Stack and the Heap
+
+#### Stack
+
+#### Heap
+
