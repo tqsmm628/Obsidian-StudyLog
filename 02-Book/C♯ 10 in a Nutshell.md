@@ -345,3 +345,10 @@ publisher: O'Reilly
 
 #### Rectangular arrays
 
+#### Jagged arrays
+
+### Simplified Array Initialization Expressions
+
+### Bounds Checking
+
+## Variables and Parameters
