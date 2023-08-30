@@ -27,4 +27,15 @@ publisher: O'Reilly
 
 # Chapter 2. Async Basics
 
-## 2.1. 
+## 2.1. Pausing for a Period of Time
+
+## 2.2. Returning Completed Tasks
+
+## 2.3. Reporting Progress
+
+## 2.4. Waiting for a Set of Tasks to Complete
+
+## 2.5. Waiting for Any Task to Complete
+
+## 2.6. Processing Tasks as They Complete
+
