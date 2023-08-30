@@ -359,3 +359,7 @@ publisher: O'Reilly
 
 #### Heap
 
+### Definite Assignment
+
+### Default Values
+
