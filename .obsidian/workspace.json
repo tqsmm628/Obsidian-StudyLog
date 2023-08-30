@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-Book/Concurrency in C♯ Cookbook.md",
+                "file": "02-Book/C♯ 10 in a Nutshell.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-Book/Concurrency in C♯ Cookbook.md",
+                "file": "02-Book/C♯ 10 in a Nutshell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-Book/Concurrency in C♯ Cookbook.md",
+                "file": "02-Book/C♯ 10 in a Nutshell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-Book/Concurrency in C♯ Cookbook.md"
+                "file": "02-Book/C♯ 10 in a Nutshell.md"
               }
             }
           },
@@ -173,9 +173,9 @@
   },
   "active": "59e0ed5273e0ef69",
   "lastOpenFiles": [
-    "02-Book/Get the Guy.md",
     "README.md",
     "02-Book/Concurrency in C♯ Cookbook.md",
+    "02-Book/Get the Guy.md",
     "02-Book/拯救手機腦.md",
     "02-Book/C♯ 10 in a Nutshell.md",
     "02-Book/C♯ 本事.md",

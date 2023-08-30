@@ -27,7 +27,7 @@ publisher: O'Reilly
 
 # Chapter 2. Async Basics
 
-## 2.1. Pausing for a Period of Time
+## 2.1. Pausing for a Period of TimeF
 
 ## 2.2. Returning Completed Tasks
 
@@ -39,3 +39,4 @@ publisher: O'Reilly
 
 ## 2.6. Processing Tasks as They Complete
 
+## 2.7. Avoiding Context for Continuations
