@@ -387,3 +387,11 @@ publisher: O'Reilly
 
 ### Ref Returns
 
+### var -- Implicitly Typed Local Variables
+
+### Target-Typed new Expressions
+
+## Expressions and Operators
+
+### Primary Expressions
+
