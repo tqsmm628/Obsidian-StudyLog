@@ -369,3 +369,7 @@ publisher: O'Reilly
 
 #### The ref modifier
 
+#### The out modifier
+
+#### Out variables and discards
+
