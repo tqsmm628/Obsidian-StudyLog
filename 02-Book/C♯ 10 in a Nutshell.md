@@ -395,3 +395,18 @@ publisher: O'Reilly
 
 ### Primary Expressions
 
+### Void Expressions
+
+### Assignment Expressions
+
+### Operator Precedence and Associativity
+
+#### Precedence
+
+#### Left-associative operators
+
+#### Right-associative operators
+
+### Operator Table
+
+## 
