@@ -409,4 +409,13 @@ publisher: O'Reilly
 
 ### Operator Table
 
-## 
+## Null Operators
+
+### Null-Coalescing Operator
+
+### Null-Coalescing Assignment Operator
+
+### Null-Conditional Operator
+
+## Statements
+
