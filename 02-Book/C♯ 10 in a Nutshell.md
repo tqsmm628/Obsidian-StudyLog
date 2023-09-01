@@ -445,3 +445,11 @@ publisher: O'Reilly
 
 #### for loops
 
+#### foreach loops
+
+### Jump Statements
+
+#### The break statement
+
+#### The continue statement
+
