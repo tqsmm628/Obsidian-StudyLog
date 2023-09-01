@@ -453,3 +453,31 @@ publisher: O'Reilly
 
 #### The continue statement
 
+#### The goto statement
+
+#### The return statement
+
+#### The throw statement
+
+### Miscellaneous Statements
+
+## Namespaces
+
+### File-Scoped Namespaces (C# 10)
+
+### The using Directive
+
+### The global using Directive (C# 10)
+
+#### Implicit global using
+
+### using static
+
+### Rules Within a Namespace
+
+#### Name scoping
+
+#### Name hiding
+
+#### Repeated namespaces
+
