@@ -481,3 +481,15 @@ publisher: O'Reilly
 
 #### Repeated namespaces
 
+#### Nested using directives
+
+### Aliasing Types and Namespaces
+
+### Advanced Namespace Features
+
+#### Extern
+
+#### Namespace alias qualifiers
+
+# Chapter 3. Creating Types in C\#
+
