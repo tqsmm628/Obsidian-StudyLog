@@ -427,3 +427,11 @@ publisher: O'Reilly
 
 ### Selection Statements
 
+#### The if statement
+
+#### The else clause
+
+#### Changing the flow of execution with braces
+
+### The switch statement
+
