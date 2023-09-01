@@ -433,5 +433,7 @@ publisher: O'Reilly
 
 #### Changing the flow of execution with braces
 
-### The switch statement
+#### The switch statement
+
+#### Switching on types
 
