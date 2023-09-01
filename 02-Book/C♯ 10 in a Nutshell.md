@@ -419,3 +419,7 @@ publisher: O'Reilly
 
 ## Statements
 
+### Declaration Statements
+
+### Local variables
+
