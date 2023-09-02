@@ -505,3 +505,7 @@ publisher: O'Reilly
 
 ### Constants
 
+### Methods
+
+#### Expression-bodied methods
+
