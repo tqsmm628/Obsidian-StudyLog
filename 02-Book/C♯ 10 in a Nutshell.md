@@ -509,3 +509,9 @@ publisher: O'Reilly
 
 #### Expression-bodied methods
 
+#### Local methods
+
+#### Static local methods
+
+#### Local methods and top-level statements
+
