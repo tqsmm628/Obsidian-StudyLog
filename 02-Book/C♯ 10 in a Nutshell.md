@@ -501,3 +501,7 @@ publisher: O'Reilly
 
 #### Field initialization
 
+#### Declaring multiple fields together
+
+### Constants
+
