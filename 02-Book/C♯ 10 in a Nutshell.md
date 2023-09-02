@@ -547,3 +547,15 @@ publisher: O'Reilly
 
 #### Init-only setters
 
+#### CLR property implementation
+
+### Indexers
+
+#### Implementing an indexer
+
+#### CLR indexer implementation
+
+#### Using indices and ranges with indexers
+
+### Static Constructors
+
