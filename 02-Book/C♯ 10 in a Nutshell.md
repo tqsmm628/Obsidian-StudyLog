@@ -493,3 +493,5 @@ publisher: O'Reilly
 
 # Chapter 3. Creating Types in C\#
 
+## Classes
+
