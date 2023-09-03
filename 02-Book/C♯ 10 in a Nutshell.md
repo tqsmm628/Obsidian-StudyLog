@@ -562,3 +562,8 @@ publisher: O'Reilly
 #### Static constructors and field initialization order
 
 ### Static Classes
+
+### Finalizers
+
+### Partial Types and Methods
+
