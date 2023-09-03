@@ -571,3 +571,7 @@ publisher: O'Reilly
 
 #### Extended partial methods
 
+### The nameof operator
+
+## Inheritance
+
