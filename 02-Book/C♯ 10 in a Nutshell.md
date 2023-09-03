@@ -585,3 +585,7 @@ publisher: O'Reilly
 
 #### The as operator
 
+#### The is operator
+
+#### Introducing a pattern variable
+
