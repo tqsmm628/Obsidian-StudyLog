@@ -589,3 +589,7 @@ publisher: O'Reilly
 
 #### Introducing a pattern variable
 
+### Virtual Function Members
+
+#### Covariant return types
+
