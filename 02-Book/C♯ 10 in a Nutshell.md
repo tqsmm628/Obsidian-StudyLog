@@ -559,3 +559,6 @@ publisher: O'Reilly
 
 ### Static Constructors
 
+#### Static constructors and field initialization order
+
+### Static Classes
