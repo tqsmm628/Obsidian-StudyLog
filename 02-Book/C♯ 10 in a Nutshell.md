@@ -567,3 +567,7 @@ publisher: O'Reilly
 
 ### Partial Types and Methods
 
+#### Partial methods
+
+#### Extended partial methods
+
