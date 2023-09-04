@@ -157,3 +157,5 @@ publisher: O'Reilly
 
 # Chapter 10. Functional-Friendly OOP
 
+## 10.1. Async Interfaces and Inheritance
+
