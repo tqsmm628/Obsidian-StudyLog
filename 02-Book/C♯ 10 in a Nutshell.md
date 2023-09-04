@@ -639,3 +639,11 @@ publisher: O'Reilly
 
 ### Examples
 
+### Friend Assemblies
+
+### Accessibility Capping
+
+### Restrictions on Access Modifiers
+
+## Interfaces
+
