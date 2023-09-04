@@ -159,3 +159,7 @@ publisher: O'Reilly
 
 ## 10.1. Async Interfaces and Inheritance
 
+## 10.2. Async Construction: Factories
+
+## 10.3. Async Construction: The Asynchronous Initialization Pattern
+
