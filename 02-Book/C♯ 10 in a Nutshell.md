@@ -619,3 +619,6 @@ publisher: O'Reilly
 
 ### Static and Runtime Type Checking
 
+#### The GetType Method and typeof Operator
+
+### The ToString Method
