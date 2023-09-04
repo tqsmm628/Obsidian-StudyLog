@@ -141,3 +141,9 @@ publisher: O'Reilly
 
 ## 9.2. Responding to Cancellation Requests by Polling
 
+## 9.3. Cancelling Due to Timeouts
+
+## 9.4. Canceling async Code
+
+## 9.5. Canceling Parallel Code
+
