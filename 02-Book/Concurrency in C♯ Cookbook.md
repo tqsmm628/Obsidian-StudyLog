@@ -189,3 +189,7 @@ publisher: O'Reilly
 
 ## 12.3. Scheduling Parallel Code
 
+## 12.4. Dataflow Synchronization Using Schedulers
+
+# Chapter 13. Scenarios
+
