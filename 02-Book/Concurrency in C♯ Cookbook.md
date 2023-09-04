@@ -163,3 +163,4 @@ publisher: O'Reilly
 
 ## 10.3. Async Construction: The Asynchronous Initialization Pattern
 
+## 10.4. Async Properties
