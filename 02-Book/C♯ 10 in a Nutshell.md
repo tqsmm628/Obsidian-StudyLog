@@ -605,3 +605,7 @@ publisher: O'Reilly
 
 ### Constructors and Inheritance
 
+#### Implicit calling of the parameterless base-class constructor
+
+#### Constructor and field initialization order
+
