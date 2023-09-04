@@ -7,3 +7,11 @@ publisher: bpb
 #book 
 # 1. Getting Started
 
+## Structure
+
+## Objective
+
+## Download essential tools for Windows
+
+## Installing Visual Studio 2019 with .NET Core 3.1
+
