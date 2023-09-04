@@ -179,3 +179,5 @@ publisher: O'Reilly
 
 ## 11.4. Async Signals
 
+## 11.5. Throttling
+
