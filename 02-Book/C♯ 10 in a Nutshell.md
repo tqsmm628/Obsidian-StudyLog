@@ -627,3 +627,9 @@ publisher: O'Reilly
 
 ## Structs
 
+### Struct Construction Semantics
+
+#### The default constructor
+
+### Read-Only Structs and Functions
+
