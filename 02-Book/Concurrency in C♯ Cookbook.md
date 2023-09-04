@@ -181,3 +181,11 @@ publisher: O'Reilly
 
 ## 11.5. Throttling
 
+# Chapter 12. Scheduling
+
+## 12.1. Scheduling Work to the Thread Pool
+
+## 12.2. Executing Code with a Task Scheduler
+
+## 12.3. Scheduling Parallel Code
+
