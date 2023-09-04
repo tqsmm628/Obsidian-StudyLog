@@ -151,3 +151,9 @@ publisher: O'Reilly
 
 ## 9.7. Canceling Dataflow Meshes
 
+## 9.8. Injecting cancellation Requests
+
+## 9.9. Interop with Other Cancellation Systems
+
+# Chapter 10. Functional-Friendly OOP
+
