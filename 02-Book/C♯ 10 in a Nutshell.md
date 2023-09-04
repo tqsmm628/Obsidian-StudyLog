@@ -622,3 +622,8 @@ publisher: O'Reilly
 #### The GetType Method and typeof Operator
 
 ### The ToString Method
+
+### Object Member Listing
+
+## Structs
+
