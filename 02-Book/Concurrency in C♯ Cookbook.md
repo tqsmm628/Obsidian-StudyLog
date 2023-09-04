@@ -164,3 +164,10 @@ publisher: O'Reilly
 ## 10.3. Async Construction: The Asynchronous Initialization Pattern
 
 ## 10.4. Async Properties
+
+## 10.5. Async Events
+
+## 10.6. Async Disposal
+
+# Chapter 11. Synchronization
+
