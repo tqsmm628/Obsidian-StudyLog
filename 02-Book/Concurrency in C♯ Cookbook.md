@@ -147,3 +147,7 @@ publisher: O'Reilly
 
 ## 9.5. Canceling Parallel Code
 
+## 9.6. Canceling Reactive Code
+
+## 9.7. Canceling Dataflow Meshes
+
