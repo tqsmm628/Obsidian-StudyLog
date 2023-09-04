@@ -647,3 +647,7 @@ publisher: O'Reilly
 
 ## Interfaces
 
+### Extending an Interface
+
+### Explicit Interface Implementation
+
