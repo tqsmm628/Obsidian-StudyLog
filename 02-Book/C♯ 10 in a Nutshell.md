@@ -651,3 +651,9 @@ publisher: O'Reilly
 
 ### Explicit Interface Implementation
 
+### Implementing Interface Members Virtually
+
+### Reimplementing an Interface in a Subclass
+
+#### Alternative to interface reimplementation
+
