@@ -193,3 +193,7 @@ publisher: O'Reilly
 
 # Chapter 13. Scenarios
 
+## 13.1. Initializing Shared Resources
+
+## 13.2. Rx Deferred Evaluation
+
