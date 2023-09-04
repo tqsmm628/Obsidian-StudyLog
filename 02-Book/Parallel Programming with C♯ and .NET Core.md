@@ -19,3 +19,9 @@ publisher: bpb
 
 ## Procmon
 
+## Process Explorer
+
+## PerfView
+
+## JustDecompile
+
