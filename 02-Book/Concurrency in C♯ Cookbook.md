@@ -1,6 +1,6 @@
 ---
 subtitle: Asynchronous, Parallel, and Multithreaded Programming
-status: doing
+status: done
 author: Stephen Cleary
 publisher: O'Reilly
 ---
@@ -197,3 +197,6 @@ publisher: O'Reilly
 
 ## 13.2. Rx Deferred Evaluation
 
+## 13.3. Asynchronous Data Binding
+
+## 13.4. Implicit State
