@@ -40,3 +40,32 @@ publisher: O'Reilly
 ## 2.6. Processing Tasks as They Complete
 
 ## 2.7. Avoiding Context for Continuations
+
+## 2.8. Handling Exceptions from async Task Methods
+
+## 2.9. Handling Exceptions from async Void Methods
+
+# Chapter 3. Parallel Basics
+
+## 3.1. Parallel Processing of Data
+
+## 3.2. Parallel Aggregation
+
+## 3.3. Parallel Invocation
+
+## 3.4. Dynamic Parallelism
+
+## 3.5. Parallel LINQ
+
+# Chapter 4. Dataflow Basics
+
+## 4.1. Linking Blocks
+
+## 4.2. Propagating Errors
+
+## 4.3. Unlinking Blocks
+
+## 4.4. Throttling Blocks
+
+## 4.5. Parallel Processing with Dataflow Blocks
+
