@@ -105,3 +105,13 @@ publisher: bpb
 
 ## WinForms high DPI
 
+## .NET Standard 2.1
+
+## C# 8 and its new features support
+
+## Compile and Deploy
+
+### Default executable
+
+### Single executable file
+
