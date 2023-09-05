@@ -89,5 +89,13 @@ publisher: bpb
 
 ## Introduction
 
-## Strucutre
+## Structure
+
+## Objective
+
+## New features and enhancements
+
+## NET Core version APIs
+
+## Windows Desktop application support
 
