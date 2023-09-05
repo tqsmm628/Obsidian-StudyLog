@@ -25,3 +25,12 @@ publisher: bpb
 
 ## JustDecompile
 
+## DebugDiag
+
+## WinDbg
+
+## Creating a .NET Core 3.1 application using Visual Studio 2019
+
+## Summary
+
+## Exer
