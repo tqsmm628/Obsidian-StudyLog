@@ -115,3 +115,13 @@ publisher: bpb
 
 ### Single executable file
 
+### Assembly linking
+
+### Tiered compilation
+
+### ReadyToRun images
+
+### Cross-platform/architecture restrictions
+
+## Runtime/SDK
+
