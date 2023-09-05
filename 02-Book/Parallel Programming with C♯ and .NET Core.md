@@ -99,3 +99,9 @@ publisher: bpb
 
 ## Windows Desktop application support
 
+### Windows Desktop Deployment MSIX
+
+## COM-callable components - Windows Desktop
+
+## WinForms high DPI
+
