@@ -33,4 +33,49 @@ publisher: bpb
 
 ## Summary
 
-## Exer
+## Exercise
+
+# 2. What's New in C# 8
+
+## Structure
+
+## Objective
+
+## C# 8 platform dependencies
+
+## New features and enhancements
+
+### Nullable reference types/Non-nullable reference type
+
+### Asynchronous streams
+
+### Ranges and indices
+
+#### System.Index
+
+#### System.Range
+
+## Default implementations of interface members
+
+## Readonly members on structs
+
+## Pattern matching enhancements
+
+### Switch expressions
+
+#### Recursive patterns
+
+#### Positional pattern
+
+#### Property pattern
+
+### Tuple patterns
+
+## Using declarations
+
+## Static local functions
+
+## Disposable ref structs
+
+## Null-coalescing assignment
+
