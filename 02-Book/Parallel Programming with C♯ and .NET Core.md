@@ -79,3 +79,15 @@ publisher: bpb
 
 ## Null-coalescing assignment
 
+## Interpolated verbatim strings enhancement
+
+## Summary
+
+## Exercise
+
+# 3. .NET Core 3.1
+
+## Introduction
+
+## Strucutre
+
