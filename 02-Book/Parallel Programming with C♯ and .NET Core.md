@@ -125,3 +125,43 @@ publisher: bpb
 
 ## Runtime/SDK
 
+### Build copies dependencies
+
+### Local tools
+
+### Smaller Garbage Collection heap sizes
+
+### Garbage Collection Large Page supports
+
+### Opt-in feature
+
+## IEEE Floating-point improvements
+
+## Built-in JSON support
+
+### Json Reader
+
+### Json Writer
+
+### Json Serializer
+
+## HTTP/2 support
+
+## Cryptographic Key Import and Export
+
+## Summary
+
+## Exercise
+
+# 4. Demystifying Threading
+
+## Structure
+
+## Objectives
+
+## Why threading?
+
+### Developing a responsive user interface
+
+### Handling concurrent requests in server
+
