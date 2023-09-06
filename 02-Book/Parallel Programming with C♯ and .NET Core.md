@@ -179,3 +179,5 @@ publisher: bpb
 
 ## ThreadPool
 
+### Exceptions in ThreadPool
+
