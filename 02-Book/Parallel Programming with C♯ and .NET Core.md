@@ -173,3 +173,7 @@ publisher: bpb
 
 ## Thread
 
+## Exception handling
+
+### Limitations
+
