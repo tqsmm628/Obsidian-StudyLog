@@ -181,3 +181,9 @@ publisher: bpb
 
 ### Exceptions in ThreadPool
 
+### Limitations of Thread Pool
+
+## ThreadPool in action
+
+## Task
+
