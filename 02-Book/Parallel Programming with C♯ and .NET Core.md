@@ -207,3 +207,14 @@ publisher: bpb
 
 # 5. Parallel Programming
 
+## Structure
+
+## Objectives
+
+## Understanding the jargon
+
+## Parallel Extensions
+
+## Task Parallel Library (TPL
+
+)
