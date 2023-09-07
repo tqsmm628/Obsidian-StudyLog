@@ -189,3 +189,21 @@ publisher: bpb
 
 ## TaskCreationOptions
 
+## Exception handling with Tasks
+
+## Cancellation
+
+## Continuations
+
+## WhenAll, WhenAny
+
+## Task Scheduler
+
+## Task Factory
+
+## Summary
+
+## Exercise
+
+# 5. Parallel Programming
+
