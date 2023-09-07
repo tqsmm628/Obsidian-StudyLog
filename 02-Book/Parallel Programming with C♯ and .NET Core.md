@@ -215,6 +215,11 @@ publisher: bpb
 
 ## Parallel Extensions
 
-## Task Parallel Library (TPL
+## Task Parallel Library (TPL)
 
-)
+## Data parallelism
+
+## Task parallelism
+
+### PLINQ
+
