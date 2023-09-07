@@ -233,3 +233,5 @@ publisher: bpb
 
 ### ConcurrentDictionary\<TKey, TValue>
 
+## IEnumerator and yield return
+
