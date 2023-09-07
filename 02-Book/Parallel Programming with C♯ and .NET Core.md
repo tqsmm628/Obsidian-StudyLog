@@ -223,3 +223,13 @@ publisher: bpb
 
 ### PLINQ
 
+## Data structures for parallelism
+
+### ConcurrentBag\<T>
+
+### ConcurrentStack\<T>
+
+### ConcurrentQueue\<T>
+
+### ConcurrentDictionary\<TKey, TValue>
+
