@@ -237,3 +237,27 @@ publisher: bpb
 
 ## async await
 
+## async await - Control flow
+
+## async await - Under the hood
+
+### Language features
+
+## Principles for using async await
+
+## Restrictions on async await
+
+### CPU (computer) bound versus I/O bound word
+
+## Deadlock
+
+## Asynchronous Streams
+
+## ValueTask
+
+## Summary
+
+## Exercise
+
+# 6. The Threading Patterns
+
