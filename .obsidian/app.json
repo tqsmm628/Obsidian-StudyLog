@@ -8,5 +8,6 @@
   "showLineNumber": false,
   "promptDelete": false,
   "strictLineBreaks": false,
-  "focusNewTab": true
+  "focusNewTab": true,
+  "livePreview": false
 }

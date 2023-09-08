@@ -10,13 +10,15 @@
           {
             "id": "59e0ed5273e0ef69",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "90-DailyNotes/2023-09-08.md",
+                "file": "02-Book/Code Like a Pro in C♯.md",
                 "mode": "source",
-                "source": false
-              }
+                "source": true
+              },
+              "pinned": true
             }
           }
         ]
@@ -48,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#book",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "90-DailyNotes/2023-09-08.md",
+                "file": "02-Book/Code Like a Pro in C♯.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "90-DailyNotes/2023-09-08.md",
+                "file": "02-Book/Code Like a Pro in C♯.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "90-DailyNotes/2023-09-08.md"
+                "file": "02-Book/Code Like a Pro in C♯.md"
               }
             }
           },
@@ -173,22 +175,23 @@
   },
   "active": "59e0ed5273e0ef69",
   "lastOpenFiles": [
-    "README.md",
-    "02-Book/Parallel Programming with C♯ and .NET Core.md",
-    "90-DailyNotes/2023-09-08.md",
     "02-Book/Concurrency in C♯ Cookbook.md",
+    "02-Book/Code Like a Pro in C♯.md",
     "02-Book/C♯ 10 in a Nutshell.md",
+    "02-Book/Building Web APIs with ASP.NET Core.md",
+    "README.md",
+    "02-Book/除了死，都只是擦傷.md",
+    "90-DailyNotes/2023-09-08.md",
+    "02-Book/Parallel Programming with C♯ and .NET Core.md",
     "02-Book/Get the Guy.md",
     "02-Book/拯救手機腦.md",
     "02-Book/C♯ 本事.md",
-    "02-Book/除了死，都只是擦傷.md",
     "02-Book/我可能錯了.md",
     "02-Book/最強筋肉社長的人生哲學.md",
     "02-Book/想死不如健身！改變一生的超科學理由.md",
     "02-Book/最強筋肉社長.md",
     "02-Book/最強筋肉社長的零壓力生存術.md",
     "02-Book/一本書終結你的拖延症.md",
-    "02-Book/Building Web APIs with ASP.NET Core.md",
     "90-DailyNotes/2023-08-08.md",
     "02-Book/大人學破局思考.md",
     "02-Book/Learning Git.md",
@@ -200,7 +203,6 @@
     "02-Book/_index.md",
     "90-DailyNotes/2023-07-19.md",
     "90-DailyNotes/2023-07-20.md",
-    "90-DailyNotes/2023-07-21.md",
     "03-LinksToRead",
     "02-Book",
     "99-Library",
