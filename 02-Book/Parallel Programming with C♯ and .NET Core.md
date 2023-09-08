@@ -261,3 +261,11 @@ publisher: bpb
 
 # 6. The Threading Patterns
 
+## Introduction
+
+## Structure
+
+## Objectives
+
+## Task-based Asynchronous Pattern (TAP)
+
