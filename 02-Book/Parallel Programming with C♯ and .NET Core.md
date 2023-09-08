@@ -271,3 +271,5 @@ publisher: bpb
 
 ## Implementing pattern
 
+## CPU bound versus I/O bound
+
