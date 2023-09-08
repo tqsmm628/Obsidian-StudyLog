@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a59994511384fbf6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "90-DailyNotes/2023-09-08.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-Book/Parallel Programming with C♯ and .NET Core.md",
+                "file": "90-DailyNotes/2023-09-08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-Book/Parallel Programming with C♯ and .NET Core.md",
+                "file": "90-DailyNotes/2023-09-08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-Book/Parallel Programming with C♯ and .NET Core.md"
+                "file": "90-DailyNotes/2023-09-08.md"
               }
             }
           },
@@ -171,8 +184,9 @@
       "daily-notes:開啟今天的每日筆記": false
     }
   },
-  "active": "59e0ed5273e0ef69",
+  "active": "a59994511384fbf6",
   "lastOpenFiles": [
+    "90-DailyNotes/2023-09-08.md",
     "02-Book/Concurrency in C♯ Cookbook.md",
     "02-Book/Parallel Programming with C♯ and .NET Core.md",
     "README.md",
@@ -200,7 +214,6 @@
     "90-DailyNotes/2023-07-19.md",
     "90-DailyNotes/2023-07-20.md",
     "90-DailyNotes/2023-07-21.md",
-    "90-DailyNotes/2023-07-25.md",
     "03-LinksToRead",
     "02-Book",
     "99-Library",
