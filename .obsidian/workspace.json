@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "a59994511384fbf6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "90-DailyNotes/2023-09-08.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "90-DailyNotes/2023-09-08.md",
+                "file": "02-Book/Parallel Programming with C♯ and .NET Core.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "90-DailyNotes/2023-09-08.md",
+                "file": "02-Book/Parallel Programming with C♯ and .NET Core.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "90-DailyNotes/2023-09-08.md"
+                "file": "02-Book/Parallel Programming with C♯ and .NET Core.md"
               }
             }
           },
@@ -184,7 +171,7 @@
       "daily-notes:開啟今天的每日筆記": false
     }
   },
-  "active": "a59994511384fbf6",
+  "active": "59e0ed5273e0ef69",
   "lastOpenFiles": [
     "90-DailyNotes/2023-09-08.md",
     "02-Book/Concurrency in C♯ Cookbook.md",
