@@ -269,3 +269,5 @@ publisher: bpb
 
 ## Task-based Asynchronous Pattern (TAP)
 
+## Implementing pattern
+
