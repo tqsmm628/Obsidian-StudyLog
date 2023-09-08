@@ -269,7 +269,10 @@ publisher: bpb
 
 ## Task-based Asynchronous Pattern (TAP)
 
-## Implementing pattern
+### Implementing pattern
 
-## CPU bound versus I/O bound
+### CPU bound versus I/O bound
 
+### Exception handling
+
+#### Ne
