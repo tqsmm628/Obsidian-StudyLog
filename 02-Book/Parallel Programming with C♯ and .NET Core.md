@@ -275,4 +275,7 @@ publisher: bpb
 
 ### Exception handling
 
-#### Ne
+#### Nested exception handling
+
+#### Exception handling in Task.Wait()
+
