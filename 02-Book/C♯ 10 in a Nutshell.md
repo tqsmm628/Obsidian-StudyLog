@@ -677,3 +677,6 @@ publisher: O'Reilly
 
 ### Generic Types
 
+### Why Generics Exist
+
+F
