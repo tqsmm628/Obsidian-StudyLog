@@ -279,3 +279,29 @@ publisher: bpb
 
 #### Exception handling in Task.Wait()
 
+#### Using the handle method
+
+### Avoid async void
+
+### Cancellation
+
+### Progress reporting
+
+### Other asynchronous patterns
+
+## Asynchronous Programming Model (APM)
+
+### APM to TAP wrapper
+
+### TAP to APM wrapper
+
+## Event-based Asynchronous Pattern (EAP)
+
+### EAP to TAP wrapper
+
+## Summary
+
+## Exercise
+
+# 7. Synchronization Constructs
+
