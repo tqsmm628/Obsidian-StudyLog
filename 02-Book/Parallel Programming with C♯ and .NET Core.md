@@ -305,3 +305,12 @@ publisher: bpb
 
 # 7. Synchronization Constructs
 
+## Structure
+
+## Objectives
+
+## Overview
+
+### Thread safety
+
+## Locking
