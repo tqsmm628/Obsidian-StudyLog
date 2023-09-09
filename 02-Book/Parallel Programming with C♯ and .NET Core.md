@@ -313,4 +313,47 @@ publisher: bpb
 
 ### Thread safety
 
-## Locking
+## Locking constructs
+
+### Lock or Monitor.Enter/Monitor.Exit (Exclusive)
+
+### Mutex (Exclusive)
+
+### SpinLock (Exclusive)
+
+### Semaphore (Non-Exclusive)
+
+### SemaphoreSlim (Non-Exclusive)
+
+### Reader/Writer locks (Non-Exclusive)
+
+## Signaling constructs
+
+### AutoResetEvent
+
+### ManualResetEvent / ManualResetEventSlim
+
+### CountdownEvent
+
+### Barrier classes
+
+### Wait and Pulse
+
+### Interlocked class
+
+### Volatile class
+
+## Summary
+
+## Exercise
+
+# 8. Unit Testing Parallel and Asynchronous Programs
+
+## Structure
+
+## Objectives
+
+## Overview
+
+## Basics of unit testing with XUnit
+
