@@ -357,3 +357,31 @@ publisher: bpb
 
 ## Basics of unit testing with XUnit
 
+### Executing unit tests
+
+### IntelliTest
+
+### Live Unit Testing
+
+### Unit test async methods
+
+### Unit test exceptions in async methods
+
+### Unit test async method using mock data
+
+## Unit test for parallel methods
+
+### Unit test async void methods
+
+## Summary
+
+## Exercise
+
+# 9. Debugging and Troubleshooting
+
+## Structure
+
+## Objectives
+
+## Debugging primer with Visual Studio 2019
+
