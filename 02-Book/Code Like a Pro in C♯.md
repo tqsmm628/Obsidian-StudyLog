@@ -12,3 +12,5 @@ publisher: manning
 
 ### 2.2 What is .NET 5?
 
+### 2.3 How CLI-compliant languages are compiled
+
