@@ -9,5 +9,5 @@
   "promptDelete": false,
   "strictLineBreaks": false,
   "focusNewTab": true,
-  "livePreview": false
+  "livePreview": true
 }
