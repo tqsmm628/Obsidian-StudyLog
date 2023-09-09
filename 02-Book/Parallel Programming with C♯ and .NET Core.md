@@ -385,3 +385,9 @@ publisher: bpb
 
 ## Debugging primer with Visual Studio 2019
 
+## Profiling
+
+## Memory Dumps
+
+### Collecting memory dumps
+
