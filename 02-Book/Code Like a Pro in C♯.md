@@ -14,3 +14,5 @@ publisher: manning
 
 ### 2.3 How CLI-compliant languages are compiled
 
+#### 2.3.1 Step 1: C# code (high-level)
+
