@@ -391,3 +391,15 @@ publisher: bpb
 
 ### Collecting memory dumps
 
+### Analyzing memory dumps
+
+## Fixing
+
+## Performance analysis with PerfView
+
+## Summary
+
+## Exercise
+
+# 10. Tips and Tricks
+
