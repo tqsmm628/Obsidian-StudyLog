@@ -8,35 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "59e0ed5273e0ef69",
+            "id": "c39f0712eea01ca8",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-Book/Code Like a Pro in C♯.md",
-                "mode": "preview",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "80ac045c63de6f8d",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02-Book/Parallel Programming with C♯ and .NET Core.md",
+                "file": "02-Book/C♯ 10 in a Nutshell.md",
                 "mode": "source",
                 "source": false
-              },
-              "pinned": true
+              }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-Book/Parallel Programming with C♯ and .NET Core.md",
+                "file": "02-Book/C♯ 10 in a Nutshell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-Book/Parallel Programming with C♯ and .NET Core.md",
+                "file": "02-Book/C♯ 10 in a Nutshell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-Book/Parallel Programming with C♯ and .NET Core.md"
+                "file": "02-Book/C♯ 10 in a Nutshell.md"
               }
             }
           },
@@ -188,16 +171,16 @@
       "daily-notes:開啟今天的每日筆記": false
     }
   },
-  "active": "80ac045c63de6f8d",
+  "active": "c39f0712eea01ca8",
   "lastOpenFiles": [
     "README.md",
     "02-Book/Code Like a Pro in C♯.md",
+    "02-Book/Parallel Programming with C♯ and .NET Core.md",
     "02-Book/Concurrency in C♯ Cookbook.md",
     "02-Book/C♯ 10 in a Nutshell.md",
     "02-Book/Building Web APIs with ASP.NET Core.md",
     "02-Book/除了死，都只是擦傷.md",
     "90-DailyNotes/2023-09-08.md",
-    "02-Book/Parallel Programming with C♯ and .NET Core.md",
     "02-Book/Get the Guy.md",
     "02-Book/拯救手機腦.md",
     "02-Book/C♯ 本事.md",

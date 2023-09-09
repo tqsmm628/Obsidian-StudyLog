@@ -1,6 +1,6 @@
 ---
 subtitle: Developing Multithreaded Applicatioins Using C# and .NET Core 3.1 from Scratch
-status: doing
+status: done
 author: Rishabh Verma, Neha Shrivastava, Ravindra Akella
 publisher: bpb
 ---
@@ -414,4 +414,16 @@ publisher: bpb
 ### async await
 
 ### ASP.NET Core
+
+### Threading Patterns
+
+### Synchronization
+
+### Testing
+
+### Debugging
+
+### Azure
+
+## Summary
 

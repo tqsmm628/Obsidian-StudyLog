@@ -675,3 +675,5 @@ publisher: O'Reilly
 
 ## Generics
 
+### Generic Types
+
