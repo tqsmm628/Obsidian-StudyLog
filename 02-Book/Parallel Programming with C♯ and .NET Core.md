@@ -403,3 +403,11 @@ publisher: bpb
 
 # 10. Tips and Tricks
 
+## Structure
+
+## Objectives
+
+## Tips and tricks
+
+### Threading and TPL
+
