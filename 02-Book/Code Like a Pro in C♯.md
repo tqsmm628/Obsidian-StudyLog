@@ -16,3 +16,6 @@ publisher: manning
 
 #### 2.3.1 Step 1: C# code (high-level)
 
+#### 2.3.2 Step 2: Common Intermediate Language (assembly level)
+
+#### Step 3: 
