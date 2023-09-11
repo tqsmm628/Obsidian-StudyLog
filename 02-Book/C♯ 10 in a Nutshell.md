@@ -813,4 +813,9 @@ publisher: O'Reilly
 
 #### Relational operators (<, <=, >=, >)
 
-#### All other operators (+, -, \*, /, %, &, |, ^, <<, >>, +, ++, )
+#### All other operators (+, -, \*, /, %, &, |, ^, <<, >>, +, ++, --, !, ~)
+
+#### Mixing nullable and non-nullable operators
+
+### bool? with & and | Operators
+
