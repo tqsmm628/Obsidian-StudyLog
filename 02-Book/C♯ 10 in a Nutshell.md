@@ -699,8 +699,49 @@ publisher: O'Reilly
 
 ### Covariance
 
-### Variance is not automatic
+#### Variance is not automatic
 
-### Arrays
+#### Arrays
 
-### Declaring a covariant
+#### Declaring a covariant type parameter
+
+### Contravariance
+
+### C# Generics Versus C++ Templates
+
+# Chapter 4. Advanced C#
+
+## Delegates
+
+### Writing Plug-In Methods with Delegates
+
+### Instance and Static Method Targets
+
+### Multicast Delegates
+
+### Multicast delegate example
+
+### Generic Delegate Types
+
+### The Func and Action Delegates
+
+### Delegates Versus Interfaces
+
+### Delegate Compatibility
+
+#### Type compatibility
+
+#### Return type compatibility
+
+#### Generic delegate type parameter variance
+
+## Events
+
+### Standard Event Pattern
+
+### Event Accessors
+
+### Event Modifiers
+
+## Lambda Expressions
+
