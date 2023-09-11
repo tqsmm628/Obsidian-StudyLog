@@ -26,3 +26,9 @@ publisher: manning
 
 ## 3 How bad is this code?
 
+### 3.1 Introducing Flying Dutchman Airlines
+
+### 3.2 Pieces of the puzzle: Taking a look at our requirements
+
+#### 3.2.1 Object-relation mapping
+
