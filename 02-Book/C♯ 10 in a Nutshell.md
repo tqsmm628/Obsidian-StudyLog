@@ -819,3 +819,64 @@ publisher: O'Reilly
 
 ### bool? with & and | Operators
 
+### Nullable Value Types and Null Operators
+
+### Scenarios for Nullable Value Types
+
+### Alternatives to Nullable Value Types
+
+## Nullable Reference Types
+
+### The Null-Forgiving Operator
+
+### Separating the Annotation and Warning Contexts
+
+### Treating Nullable Warnings as Errors
+
+## Extension Methods
+
+### Extension Method Chaining
+
+### Ambiguity and Resolution
+
+#### Namespaces
+
+#### Extension methods versus instance methods
+
+#### Extension methods versus extension methods
+
+#### Demoting an extension method
+
+## Anonymous Types
+
+## Tuples
+
+### Naming Tuple Elements
+
+#### Type erasure
+
+### ValueTuple.Create
+
+### Deconstructing Tuples
+
+### Equality Comparison
+
+### The System.Tuple classes
+
+## Records
+
+### Background
+
+### Defining a Record
+
+#### Parameter lists
+
+### Nondestructive Mutation
+
+### Property Validation
+
+### Calculated Fields and lazy Evaluation
+
+### Primary Constructors
+
+### Records and Equality Comparison
