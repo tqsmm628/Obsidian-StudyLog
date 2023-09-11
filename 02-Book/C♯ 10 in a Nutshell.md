@@ -745,3 +745,49 @@ publisher: O'Reilly
 
 ## Lambda Expressions
 
+### Explicitly Specifying Lambda Parameter and Return Types
+
+### Capturing Outer Variables
+
+#### Static lambdas
+
+#### Capturing iteration variables
+
+### Lambda Expressions Versus Local Methods
+
+## Anonymous Methods
+
+## try Statements and Exceptions
+
+### The catch Clause
+
+### Exception filters
+
+### The finally Block
+
+#### The using statement
+
+#### using declarations
+
+### Throwing Exceptions
+
+#### throw expressions
+
+#### Rethrowing an exception
+
+### Key Properties of System.Exception
+
+### Common Exception Types
+
+### The TryXXX Method Pattern
+
+### Alternatives to Exceptions
+
+## Enumeration and Iterators
+
+### Enumeration
+
+### Collection Initializers
+
+### Iterators
+
