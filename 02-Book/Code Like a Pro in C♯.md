@@ -18,4 +18,11 @@ publisher: manning
 
 #### 2.3.2 Step 2: Common Intermediate Language (assembly level)
 
-#### Step 3: 
+#### 2.3.3 Step 3: Native code (processor level)
+
+### Summary
+
+# Part 2 The existing codebase
+
+## 3 How bad is this code?
+

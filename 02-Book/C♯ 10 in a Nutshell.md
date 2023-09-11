@@ -679,4 +679,5 @@ publisher: O'Reilly
 
 ### Why Generics Exist
 
-F
+### Generic Methods
+
