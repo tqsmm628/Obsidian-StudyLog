@@ -791,3 +791,26 @@ publisher: O'Reilly
 
 ### Iterators
 
+### Iterator Semantics
+
+#### yield break
+
+#### Iterators and try/catch/finally blocks
+
+### Composing Sequences
+
+## Nullable Value Types
+
+### Nullable\<T> Struct
+
+### Implicit and Explicit Nullable Conversions
+
+### Boxing and Unboxing Nullable Values
+
+### Operator Lifting
+
+#### Equality operators (== and !=)
+
+#### Relational operators (<, <=, >=, >)
+
+#### All other operators (+, -, \*, /, %, &, |, ^, <<, >>, +, ++, )
