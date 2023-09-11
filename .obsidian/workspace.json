@@ -35,7 +35,8 @@
               "pinned": true
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-Book/C♯ 10 in a Nutshell.md",
+                "file": "02-Book/Code Like a Pro in C♯.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-Book/C♯ 10 in a Nutshell.md",
+                "file": "02-Book/Code Like a Pro in C♯.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-Book/C♯ 10 in a Nutshell.md"
+                "file": "02-Book/Code Like a Pro in C♯.md"
               }
             }
           },
@@ -187,11 +188,11 @@
       "daily-notes:開啟今天的每日筆記": false
     }
   },
-  "active": "c39f0712eea01ca8",
+  "active": "059e7404e4e7a27e",
   "lastOpenFiles": [
+    "02-Book/C♯ 10 in a Nutshell.md",
     "02-Book/Code Like a Pro in C♯.md",
     "README.md",
-    "02-Book/C♯ 10 in a Nutshell.md",
     "02-Book/Parallel Programming with C♯ and .NET Core.md",
     "02-Book/Concurrency in C♯ Cookbook.md",
     "02-Book/Building Web APIs with ASP.NET Core.md",

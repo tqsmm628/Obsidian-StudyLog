@@ -880,3 +880,6 @@ publisher: O'Reilly
 ### Primary Constructors
 
 ### Records and Equality Comparison
+
+## Patterns
+
