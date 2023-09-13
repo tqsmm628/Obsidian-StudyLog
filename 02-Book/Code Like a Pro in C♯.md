@@ -32,3 +32,7 @@ publisher: manning
 
 #### 3.2.1 Object-relation mapping
 
+#### 3.2.2 The GET /flight endpoint: Retrieving information on all flights
+
+#### 3.2.3 The GET /flight/{flightNumber} endpoint: Getting specific flight information
+
