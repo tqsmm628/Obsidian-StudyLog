@@ -44,3 +44,5 @@ publisher: manning
 
 #### 3.3.2 The existing codebase: Web service configuration files
 
+#### 3.3.3 Considering models and views in the existing codebase
+
