@@ -46,3 +46,7 @@ publisher: manning
 
 #### 3.3.3 Considering models and views in the existing codebase
 
+### Summary
+
+## 4 Manage your unmanaged resources!
+
