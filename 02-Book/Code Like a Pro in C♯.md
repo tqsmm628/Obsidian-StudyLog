@@ -42,3 +42,5 @@ publisher: manning
 
 #### 3.3.1 Assessing the existing database schema and its tables
 
+#### 3.3.2 The existing codebase: Web service configuration files
+
