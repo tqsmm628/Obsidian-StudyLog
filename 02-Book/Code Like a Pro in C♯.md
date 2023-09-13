@@ -50,3 +50,9 @@ publisher: manning
 
 ## 4 Manage your unmanaged resources!
 
+### 4.1 The FlightController: Assessing the GET /flight endpoint
+
+#### 4.1.1 The GET /flight endpoint and what it does
+
+#### 4.1.2 Method signature: The meaning of ResponseType and typeof
+
