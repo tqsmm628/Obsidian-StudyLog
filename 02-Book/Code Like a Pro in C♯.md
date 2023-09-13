@@ -36,3 +36,9 @@ publisher: manning
 
 #### 3.2.3 The GET /flight/{flightNumber} endpoint: Getting specific flight information
 
+#### 3.2.4 The POST /booking/{flightNumber} endpoint: Booking a flight
+
+### 3.3 Coming to terms with the existing codebase
+
+#### 3.3.1 Assessing the existing database schema and its tables
+
