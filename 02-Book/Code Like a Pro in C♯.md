@@ -64,3 +64,5 @@ publisher: manning
 
 ####  4.1.6 Querying a database with SqlCommand
 
+### 4.2 The FlightController: Assessing GET /flight/{flightNumber}
+
