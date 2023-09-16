@@ -70,3 +70,7 @@ publisher: manning
 
 ### 4.4 The FlightController: DELETE /flight/{flightNumber}
 
+# Part 3 The database access layer
+
+## 5 Setting up a project and database with Entity Framework Core
+
