@@ -68,3 +68,5 @@ publisher: manning
 
 ### 4.3 The FlightController: POST /flight
 
+### 4.4 The FlightController: DELETE /flight/{flightNumber}
+
