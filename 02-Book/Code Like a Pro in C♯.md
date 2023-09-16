@@ -56,3 +56,5 @@ publisher: manning
 
 #### 4.1.2 Method signature: The meaning of ResponseType and typeof
 
+#### 4.1.3 Collecting flight information with collections
+
