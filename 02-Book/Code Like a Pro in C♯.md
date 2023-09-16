@@ -58,3 +58,7 @@ publisher: manning
 
 #### 4.1.3 Collecting flight information with collections
 
+#### 4.1.4 Connection strings, or how to give a security engineer a heart attack
+
+#### 4.1.5 Using IDisposable to release unmanaged resources
+
